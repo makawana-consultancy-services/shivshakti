@@ -1,0 +1,218 @@
+// banner-section start 
+.banner-section {
+    padding-bottom: 30px;
+
+    .row {
+        .box {
+            video {
+                display: block;
+                width: 100%;
+                height: 666px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+// banner-section end
+
+// guarantee section start 
+.guarantee-section {
+    padding: 30px 0px;
+
+    .container {
+        .row {
+            .main-box {
+                .box {
+                    width: 25%;
+                    padding: 15px;
+
+                    .content {
+                        padding: 20px;
+                        box-shadow: 0 0 20px 10px #00000013;
+                        box-shadow: 0 10px 18px 0 rgba(0, 0, 0, .1);
+                        border-radius: 12px;
+                        overflow: hidden;
+                        transition: all .5s;
+
+                        .image {
+                            margin: 0px auto;
+                            width: 90px;
+                            height: 90px;
+                            position: relative;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            &:after {
+                                position: absolute;
+                                content: '';
+                                box-sizing: border-box;
+                                height: 100%;
+                                width: 100%;
+                                left: 0px;
+                                top: 0px;
+                                transform: scale(0);
+                                transition: all 0.8s;
+                                z-index: -1;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        .details {
+                            padding: 20px 0px;
+                            text-align: center;
+
+                            h3 {
+                                color: #e08f26;
+                                padding-bottom: 10px;
+                            }
+
+                            p {
+                                color: #680a14;
+                                font-weight: 500;
+                            }
+                        }
+
+                        &:hover {
+                            .image {
+                                &:after {
+                                    transform: scale(7);
+                                    background-color: #f6df7f57;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// guarantee section end
+
+// products section start
+.products-section {
+    padding: 30px 0px;
+
+    .container {
+        .row {
+            .main-box {
+                .box {
+                    width: 33.33%;
+                    padding: 15px;
+
+                    .content {
+                        height: 100%;
+                        padding: 20px;
+                        border-radius: 12px;
+
+                        .image {
+                            width: 200px;
+                            margin: 0px auto;
+
+
+                            img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                transition: all 0.5s;
+                            }
+                        }
+
+                        .details {
+                            text-align: center;
+                            padding-top: 20px;
+
+                            h3 {
+                                color: #680a14;
+                                padding: 15px 0px;
+                            }
+                        }
+
+                        &:hover {
+                            .image {
+                                img {
+                                    transform: scale(1.05);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// products section end
+
+// customers-section start 
+.customers-banner-section {
+    padding: 30px 0px;
+    background-color: #e08f2626;
+    min-height: 215px;
+}
+
+// customers-banner-section end
+
+// customers-section start 
+.customers-section {
+    padding: 30px 0px;
+    margin-top: -7%;
+
+    .container {
+        .row {
+            .main-box {
+                justify-content: center;
+
+                .box {
+                    width: 30%;
+                    padding: 15px;
+
+                    .content {
+                        text-align: center;
+                        padding: 20px;
+                        border-radius: 12px;
+                        background-color: white;
+                        box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.0745098039);
+
+                        box .image {
+                            img {}
+                        }
+
+                        .details {
+                            padding-top: 15px;
+
+                            h3 {
+                                color: #e08f26;
+                                font-size: 30px;
+                            }
+
+                            p {
+                                color: #680a14;
+                                font-size: 30px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// customers-section end
+
+// slider section start 
+.slider-section {
+    padding: 30px 0px;
+
+    .row {
+
+        
+    }
+}
+
+// slider section end

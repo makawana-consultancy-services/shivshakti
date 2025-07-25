@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100..800&family=Kumar+One+Outline&family=Shrikhand&display=swap');
+
+.anek-gujarati {
+    font-family: "Anek Gujarati", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.primary-btn {
+    display: flex;
+    justify-content: center;
+
+    a {
+        background-color: #e08f26;
+        color: white;
+        display: inline-block;
+        font-weight: 700;
+        width: auto;
+        position: relative;
+        z-index: 1;
+        padding: 10px 40px;
+        border-radius: 65px;
+        transition: all 0.5s;
+
+        &:after {
+            position: absolute;
+            content: '';
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #e08f26;
+            left: 0px;
+            top: 0px;
+            border-radius: 65px;
+            transform: scale(0);
+            transition: all 0.5s;
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: #e08f26;
+
+            &:after {
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+.heading {
+    h2 {
+        text-align: center;
+        color: #e08f26;
+        padding-bottom: 30px;
+
+        span {
+            color: #680a14;
+        }
+    }
+}
+
+// primery color 
+// color: #e08f26;
+
+// sub-primery-color 
+// color: #680a14;
+
+// background-color : #f7f3ee;
+
+
+// navbar start 
+.navbar {
+    background-color: #e08f26;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+
+    .container {
+        .row {
+            .main-box {
+                justify-content: space-between;
+
+                .box {
+                    p {
+                        text-transform: capitalize;
+                        padding: 10px 0px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// navbar end
+
+// header start 
+header {
+    // padding: 10px 0px;
+    // box-shadow: 0 8px 20px 0px #680a1430;
+    // box-shadow: 0 8px 20px 0px #e08f2636;
+    box-shadow: 0 8px 20px 0px #00000013;
+    background-color: white;
+    position: relative;
+    position: sticky;
+    top: 38px;
+    z-index: 3;
+
+    .container {
+        .main-box {
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 15px;
+
+            .logo {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+
+                a {
+                    position: relative;
+
+                    img {
+                        display: block;
+                        width: 250px;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        box-sizing: border-box;
+                        content: "";
+                        width: 110%;
+                        height: 106%;
+                        left: -5%;
+                        top: -4%;
+                        z-index: -1;
+                        background: white;
+                        border-radius: 0px 0px 68px 68px;
+                        box-shadow: inset 0 8px 20px 0px #e08f26;
+                    }
+                }
+            }
+
+            .menu {
+                ul {
+                    column-gap: 40px;
+
+                    li {
+                        padding: 30px 0px;
+
+                        a {
+                            color: #680a14;
+                            text-transform: capitalize;
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// header end
