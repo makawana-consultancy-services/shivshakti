@@ -8,6 +8,7 @@ import Products from "./pages/Products";
 import Process from "./pages/Process";
 import Nutrition from "./pages/Nutrition";
 import Contact from "./pages/Contact";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       {/* Routes end  */}
+
+      <Footer />
 
     </div>
   );

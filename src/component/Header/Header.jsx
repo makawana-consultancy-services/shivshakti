@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -28,6 +28,11 @@ const Header = () => {
                 <div className="container">
                     <div className="row">
                         <div className="main-box flex">
+                            <div className="logo">
+                                <NavLink to={'/'}>
+                                    <img src="img/shivshakti.png" alt="" />
+                                </NavLink>
+                            </div>
 
                             <div className="menu">
                                 <ul className='flex'>
@@ -40,15 +45,6 @@ const Header = () => {
                                     <li>
                                         <NavLink to={'/products'}>products</NavLink>
                                     </li>
-                                </ul>
-                            </div>
-                            <div className="logo">
-                                <NavLink to={'/'}>
-                                    <img src="img/shivshakti.png" alt="" />
-                                </NavLink>
-                            </div>
-                            <div className="menu">
-                                <ul className='flex'>
                                     <li>
                                         <NavLink to={'/process'}>process</NavLink>
                                     </li>

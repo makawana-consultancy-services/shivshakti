@@ -1,4 +1,10 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
 
 const Home = () => {
 
@@ -244,12 +250,281 @@ const Home = () => {
             {/* customers section end */}
 
             {/* slider section start  */}
-            <section className='slider-section'>
+            <section className="slider-section">
                 <div className="row">
+                    <div className="animation">
+                        <div className="scrolling-text-left">
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original.png" alt="" />
+                                </div>
+                                <h2 className='t-fill'>100% Original</h2>
+                                <div className="logo">
+                                    <img src="../../img/natural.png" alt="" />
+                                </div>
+                                <h2>100% Natural</h2>
+                                <div className="logo">
+                                    <img src="../../img/pure.png" alt="" />
+                                </div>
+                                <h2 className='t-fill'>100% Pure</h2>
+                            </div>
 
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original.png" alt="" />
+                                </div>
+                                <h2>100% Original</h2>
+                                <div className="logo">
+                                    <img src="../../img/natural.png" alt="" />
+                                </div>
+                                <h2 className='t-fill'>100% Natural</h2>
+                                <div className="logo">
+                                    <img src="../../img/pure.png" alt="" />
+                                </div>
+                                <h2>100% Pure</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="animation">
+                        <div className="scrolling-text-right">
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original.png" alt="" />
+                                </div>
+                                <h2 className='t-fill'>100% Original</h2>
+                                <div className="logo">
+                                    <img src="../../img/natural.png" alt="" />
+                                </div>
+                                <h2>100% Natural</h2>
+                                <div className="logo">
+                                    <img src="../../img/pure.png" alt="" />
+                                </div>
+                                <h2 className='t-fill'>100% Pure</h2>
+                            </div>
+
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original.png" alt="" />
+                                </div>
+                                <h2>100% Original</h2>
+                                <div className="logo">
+                                    <img src="../../img/natural.png" alt="" />
+                                </div>
+                                <h2 className='t-fill'>100% Natural</h2>
+                                <div className="logo">
+                                    <img src="../../img/pure.png" alt="" />
+                                </div>
+                                <h2>100% Pure</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             {/* slider section end */}
+
+            {/* review section start  */}
+            <section className='review-section anek-gujarati'>
+                <div className="container">
+                    <div className="row">
+                        <div className="heading">
+                            <h2>સંતોષી ગ્રાહકો ની વાતો <span>અમારી ઓળખ છે.</span></h2>
+                        </div>
+                        <div className="main-box flex">
+                            <div className="box">
+                                <div className="content">
+                                    <div className="head">
+                                        <div className="image">
+                                            <img src="https://i.pravatar.cc/300" alt="" />
+                                        </div>
+                                        <h4></h4>
+                                    </div>
+                                    <div className="G-review flex">
+                                        <img src="../../img/star_fill.png" alt="" />
+                                        <img src="../../img/star_fill.png" alt="" />
+                                        <img src="../../img/star_fill.png" alt="" />
+                                        <img src="../../img/star_fill.png" alt="" />
+                                        <img src="../../img/star.png" alt="" />
+                                    </div>
+                                    <div className="feedback">
+                                        <p>Based on 1 reviews
+                                            powered by <span>google</span></p>
+                                    </div>
+                                    <div className="primary-btn">
+                                        <a href="">review us on</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="box">
+                                <Swiper
+                                    slidesPerView={3}
+                                    spaceBetween={30}
+                                    loop={true}
+                                    className="mySwiper"
+                                >
+                                    <SwiperSlide>
+                                        <div className="content">
+                                            <div className="head flex">
+                                                <div className="image">
+                                                    <img src="https://i.pravatar.cc/300" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <h4>jigar makwana</h4>
+                                                    <h5>just now</h5>
+                                                </div>
+                                                <div className="G-icon">
+                                                    <img src="" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="G-review flex">
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star.png" alt="" />
+                                            </div>
+                                            <div className="feedback">
+                                                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="content">
+                                            <div className="head flex">
+                                                <div className="image">
+                                                    <img src="https://i.pravatar.cc/300" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <h4>rohit makwana</h4>
+                                                    <h5>just now</h5>
+                                                </div>
+                                                <div className="G-icon">
+                                                    <img src="" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="G-review flex">
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star.png" alt="" />
+                                            </div>
+                                            <div className="feedback">
+                                                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="content">
+                                            <div className="head flex">
+                                                <div className="image">
+                                                    <img src="https://i.pravatar.cc/300" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <h4>darshan aambaliya</h4>
+                                                    <h5>just now</h5>
+                                                </div>
+                                                <div className="G-icon">
+                                                    <img src="" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="G-review flex">
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star.png" alt="" />
+                                            </div>
+                                            <div className="feedback">
+                                                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="content">
+                                            <div className="head flex">
+                                                <div className="image">
+                                                    <img src="https://i.pravatar.cc/300" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <h4>jaydip makwana</h4>
+                                                    <h5>just now</h5>
+                                                </div>
+                                                <div className="G-icon">
+                                                    <img src="" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="G-review flex">
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star.png" alt="" />
+                                            </div>
+                                            <div className="feedback">
+                                                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="content">
+                                            <div className="head flex">
+                                                <div className="image">
+                                                    <img src="https://i.pravatar.cc/300" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <h4>krunal patel</h4>
+                                                    <h5>just now</h5>
+                                                </div>
+                                                <div className="G-icon">
+                                                    <img src="" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="G-review flex">
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star.png" alt="" />
+                                            </div>
+                                            <div className="feedback">
+                                                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="content">
+                                            <div className="head flex">
+                                                <div className="image">
+                                                    <img src="https://i.pravatar.cc/300" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <h4>mcs</h4>
+                                                    <h5>just now</h5>
+                                                </div>
+                                                <div className="G-icon">
+                                                    <img src="" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="G-review flex">
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star_fill.png" alt="" />
+                                                <img src="../../img/star.png" alt="" />
+                                            </div>
+                                            <div className="feedback">
+                                                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                </Swiper>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* review section end */}
         </>
     )
 }
