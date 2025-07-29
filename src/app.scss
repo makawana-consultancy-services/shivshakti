@@ -48,7 +48,7 @@ h3 {
     justify-content: center;
 
     a {
-        background-color: #e08f26;
+        background-color: #A56818;
         color: white;
         display: inline-block;
         font-weight: 700;
@@ -65,7 +65,7 @@ h3 {
             box-sizing: border-box;
             width: 100%;
             height: 100%;
-            border: 2px solid #e08f26;
+            border: 2px solid #A56818;
             left: 0px;
             top: 0px;
             border-radius: 65px;
@@ -75,7 +75,7 @@ h3 {
 
         &:hover {
             background-color: transparent;
-            color: #e08f26;
+            color: #A56818;
 
             &:after {
                 transform: scale(1);
@@ -87,7 +87,7 @@ h3 {
 .heading {
     h2 {
         text-align: center;
-        color: #e08f26;
+        color: #A56818;
         padding-bottom: 30px;
 
         span {
@@ -98,22 +98,51 @@ h3 {
 
 // navbar start 
 .navbar {
-    background-color: #e08f26;
+    background-color: #A56818;
+    padding: 5px 0px;
     color: white;
-    position: sticky;
+    // position: sticky;
     top: 0px;
     z-index: 3;
 
-    .container {
-        .row {
-            .main-box {
-                justify-content: space-between;
+    .row {
+        .animation {
+            overflow: hidden;
+            white-space: nowrap;
 
-                .box {
-                    p {
-                        text-transform: capitalize;
-                        padding: 10px 0px;
+            .scrolling-text-left {
+                display: flex;
+                animation: scroll-left 20s linear infinite;
+
+                .scrolling-wrapper {
+                    display: flex;
+                    align-items: center;
+
+                    .logo {
+                        img {
+                            width: 32px;
+                            object-fit: contain;
+                            display: block;
+                        }
+                    }
+
+                    h4 {
+                        font-family: sans-serif;
                         font-weight: bold;
+                        margin: 0 25px;
+                        color: white;
+                        text-transform: uppercase;
+                        white-space: nowrap;
+                    }
+                }
+
+                @keyframes scroll-left {
+                    0% {
+                        transform: translateX(0);
+                    }
+
+                    100% {
+                        transform: translateX(-50%);
                     }
                 }
             }
@@ -127,8 +156,7 @@ h3 {
 header {
     box-shadow: 0 8px 20px 0px #00000013;
     background-color: white;
-    position: relative;
-    position: sticky;
+    // position: sticky;
     top: 38px;
     z-index: 3;
 
@@ -170,7 +198,7 @@ header {
 // footer start 
 footer {
     padding: 30px 0px;
-    background-color: rgba(224, 143, 38, 0.1490196078);
+    background-color: #a5681821;
 
     .container {
         .row {
@@ -204,6 +232,7 @@ footer {
 
                                 ul {
                                     column-gap: 15px;
+
                                     li {
                                         a {
                                             img {
@@ -217,7 +246,7 @@ footer {
 
                             h4 {
                                 font-size: 24px;
-                                color: #e08f26;
+                                color: #A56818;
                                 font-weight: bold;
                                 padding-bottom: 25px;
                             }
@@ -246,7 +275,7 @@ footer {
                                             font-size: 20px;
                                             font-weight: bold;
                                             display: block;
-                                            color: #e08f26;
+                                            color: #A56818;
                                             padding-bottom: 8px;
                                         }
 
@@ -287,7 +316,7 @@ footer {
 // sub footer start 
 
 .sub-footer {
-    background-color: #e08f26;
+    background-color: #A56818;
     border-radius: 55px 0px 0px;
     position: relative;
 
@@ -306,7 +335,7 @@ footer {
                             font-weight: 400;
 
                             a {
-                                color: #680a14;
+                                color: white;
                                 font-weight: 900;
                             }
                         }
@@ -324,7 +353,7 @@ footer {
         width: 60px;
         right: 0px;
         bottom: 100%;
-        box-shadow: #e08f26 0px 50px 0px 0px;
+        box-shadow: #A56818 0px 50px 0px 0px;
         border-radius: 0px 0px 70px;
         transform: rotate(0deg);
     }

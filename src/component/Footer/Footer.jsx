@@ -165,7 +165,7 @@ const Footer = () => {
                             </div>
                             <div className="box">
                                 <div className="content">
-                                    <p>Created by <a href="https://makawanacs.com/" target='_blank'>MAKAWANA CONSULTANCY SERVICES</a></p>
+                                    <p>Developed By <a href="https://makawanacs.com/" target='_blank'>MAKAWANA CONSULTANCY SERVICES</a></p>
                                 </div>
                             </div>
                         </div>

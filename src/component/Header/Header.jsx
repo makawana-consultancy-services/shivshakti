@@ -7,15 +7,84 @@ const Header = () => {
 
             {/* navbar start  */}
             <nav className='navbar'>
-                <div className="container">
-                    <div className="row">
-                        <div className="main-box flex">
-                            <div className="box">
-                                <p>shivshakti oil mill</p>
+                <div className="row">
+                    <div className="animation">
+                        <div className="scrolling-text-left">
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original_nav.png" alt="" />
+                                </div>
+                                <h4>100% Original</h4>
+                                <div className="logo">
+                                    <img src="../../img/natural_nav.png" alt="" />
+                                </div>
+                                <h4>100% Natural</h4>
+                                <div className="logo">
+                                    <img src="../../img/pure_nav.png" alt="" />
+                                </div>
+                                <h4>100% Pure</h4>
                             </div>
-                            <div className="box">
-                                <p>shivshakti oil mill</p>
+
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original_nav.png" alt="" />
+                                </div>
+                                <h4>100% Original</h4>
+                                <div className="logo">
+                                    <img src="../../img/natural_nav.png" alt="" />
+                                </div>
+                                <h4>100% Natural</h4>
+                                <div className="logo">
+                                    <img src="../../img/pure_nav.png" alt="" />
+                                </div>
+                                <h4>100% Pure</h4>
                             </div>
+
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original_nav.png" alt="" />
+                                </div>
+                                <h4>100% Original</h4>
+                                <div className="logo">
+                                    <img src="../../img/natural_nav.png" alt="" />
+                                </div>
+                                <h4>100% Natural</h4>
+                                <div className="logo">
+                                    <img src="../../img/pure_nav.png" alt="" />
+                                </div>
+                                <h4>100% Pure</h4>
+                            </div>
+
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original_nav.png" alt="" />
+                                </div>
+                                <h4>100% Original</h4>
+                                <div className="logo">
+                                    <img src="../../img/natural_nav.png" alt="" />
+                                </div>
+                                <h4>100% Natural</h4>
+                                <div className="logo">
+                                    <img src="../../img/pure_nav.png" alt="" />
+                                </div>
+                                <h4>100% Pure</h4>
+                            </div>
+
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original_nav.png" alt="" />
+                                </div>
+                                <h4>100% Original</h4>
+                                <div className="logo">
+                                    <img src="../../img/natural_nav.png" alt="" />
+                                </div>
+                                <h4>100% Natural</h4>
+                                <div className="logo">
+                                    <img src="../../img/pure_nav.png" alt="" />
+                                </div>
+                                <h4>100% Pure</h4>
+                            </div>
+
                         </div>
                     </div>
                 </div>

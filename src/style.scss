@@ -29,7 +29,6 @@
 
                     .content {
                         padding: 20px;
-                        box-shadow: 0 0 20px 10px #00000013;
                         box-shadow: 0 10px 18px 0 rgba(0, 0, 0, .1);
                         border-radius: 12px;
                         overflow: hidden;
@@ -66,7 +65,7 @@
                             text-align: center;
 
                             h3 {
-                                color: #e08f26;
+                                color: #A56818;
                                 padding-bottom: 10px;
                             }
 
@@ -80,7 +79,7 @@
                             .image {
                                 &:after {
                                     transform: scale(7);
-                                    background-color: #f6df7f57;
+                                    background-color: #a5681821;
                                 }
                             }
                         }
@@ -151,7 +150,7 @@
 // customers-section start 
 .customers-banner-section {
     padding: 30px 0px;
-    background-color: #e08f2626;
+    background-color: #a5681821;
     min-height: 215px;
 }
 
@@ -178,15 +177,17 @@
                         background-color: white;
                         box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.0745098039);
 
-                        box .image {
-                            img {}
+                        .image {
+                            img {
+                                width: 32px;
+                            }
                         }
 
                         .details {
                             padding-top: 15px;
 
                             h3 {
-                                color: #e08f26;
+                                color: #A56818;
                                 font-size: 30px;
                             }
 
@@ -217,7 +218,7 @@
 
             .scrolling-text-left {
                 display: flex;
-                animation: scroll-left 20s linear infinite;
+                // animation: scroll-left 20s linear infinite;
 
                 .scrolling-wrapper {
                     display: flex;
@@ -259,7 +260,7 @@
 
             .scrolling-text-right {
                 display: flex;
-                animation: scroll-right 20s linear infinite;
+                // animation: scroll-right 20s linear infinite;
 
                 .scrolling-wrapper {
                     display: flex;
@@ -307,13 +308,11 @@
 // review section start 
 .review-section {
     padding: 30px 0px;
-    background-color: #af707738;
+    background-color: rgb(232 212 214 / 22%);
     min-height: 215px;
 
     .container {
         .row {
-            .heading {}
-
             .main-box {
                 justify-content: space-between;
 
@@ -383,7 +382,7 @@
                                                 h4 {
                                                     font-size: 14px;
                                                     font-weight: 700;
-                                                    color: #e08f26;
+                                                    color: #A56818;
                                                     text-transform: capitalize;
                                                 }
 
@@ -391,6 +390,7 @@
                                                     font-size: 13px;
                                                     font-weight: 400;
                                                     color: #680a14;
+                                                    color: #333333cc;
                                                 }
                                             }
 
@@ -438,3 +438,64 @@
 }
 
 // review section end
+
+// whatsapp section start 
+.whatsapp-section {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 3;
+
+    .box {
+        display: inline-block;
+        width: 145px;
+
+        .content {
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+            background-color: #29a71a;
+            border-radius: 10px;
+
+            .details {
+                p {
+                    color: white;
+                    font-weight: 700;
+                    padding: 4px 0px 0px 8px;
+                }
+            }
+
+            .icon {
+                img {
+                    display: block;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+// whatsapp section end
+
+// =========> contact page start <=========
+.breadcrumb-section {
+    padding: 40px 0px;
+
+    .container {
+        .row {
+            .box {
+                .content {
+                    h2 {
+                        text-align: center;
+                        background: url(../public/img/oil_banner.png) bottom;
+                        background-repeat: repeat;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// =========> contact page end <=========

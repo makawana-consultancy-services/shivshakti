@@ -18,7 +18,6 @@
 }
 .guarantee-section .container .row .main-box .box .content {
   padding: 20px;
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   overflow: hidden;
@@ -52,7 +51,7 @@
   text-align: center;
 }
 .guarantee-section .container .row .main-box .box .content .details h3 {
-  color: #e08f26;
+  color: #A56818;
   padding-bottom: 10px;
 }
 .guarantee-section .container .row .main-box .box .content .details p {
@@ -61,7 +60,7 @@
 }
 .guarantee-section .container .row .main-box .box .content:hover .image:after {
   transform: scale(7);
-  background-color: rgba(246, 223, 127, 0.3411764706);
+  background-color: rgba(165, 104, 24, 0.1294117647);
 }
 
 .products-section {
@@ -100,7 +99,7 @@
 
 .customers-banner-section {
   padding: 30px 0px;
-  background-color: rgba(224, 143, 38, 0.1490196078);
+  background-color: rgba(165, 104, 24, 0.1294117647);
   min-height: 215px;
 }
 
@@ -122,11 +121,14 @@
   background-color: white;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.0745098039);
 }
+.customers-section .container .row .main-box .box .content .image img {
+  width: 32px;
+}
 .customers-section .container .row .main-box .box .content .details {
   padding-top: 15px;
 }
 .customers-section .container .row .main-box .box .content .details h3 {
-  color: #e08f26;
+  color: #A56818;
   font-size: 30px;
 }
 .customers-section .container .row .main-box .box .content .details p {
@@ -145,7 +147,6 @@
 }
 .slider-section .row .animation .scrolling-text-left {
   display: flex;
-  animation: scroll-left 20s linear infinite;
 }
 .slider-section .row .animation .scrolling-text-left .scrolling-wrapper {
   display: flex;
@@ -179,7 +180,6 @@
 }
 .slider-section .row .animation .scrolling-text-right {
   display: flex;
-  animation: scroll-right 20s linear infinite;
 }
 .slider-section .row .animation .scrolling-text-right .scrolling-wrapper {
   display: flex;
@@ -214,7 +214,7 @@
 
 .review-section {
   padding: 30px 0px;
-  background-color: rgba(175, 112, 119, 0.2196078431);
+  background-color: rgba(232, 212, 214, 0.22);
   min-height: 215px;
 }
 .review-section .container .row .main-box {
@@ -270,13 +270,14 @@
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .head .details h4 {
   font-size: 14px;
   font-weight: 700;
-  color: #e08f26;
+  color: #A56818;
   text-transform: capitalize;
 }
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .head .details h5 {
   font-size: 13px;
   font-weight: 400;
   color: #680a14;
+  color: rgba(51, 51, 51, 0.8);
 }
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .head .G-icon {
   position: absolute;
@@ -304,4 +305,43 @@
 }
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .feedback p {
   color: rgba(51, 51, 51, 0.8);
+}
+
+.whatsapp-section {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 3;
+}
+.whatsapp-section .box {
+  display: inline-block;
+  width: 145px;
+}
+.whatsapp-section .box .content {
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  background-color: #29a71a;
+  border-radius: 10px;
+}
+.whatsapp-section .box .content .details p {
+  color: white;
+  font-weight: 700;
+  padding: 4px 0px 0px 8px;
+}
+.whatsapp-section .box .content .icon img {
+  display: block;
+  width: 50px;
+}
+
+.breadcrumb-section {
+  padding: 40px 0px;
+}
+.breadcrumb-section .container .row .box .content h2 {
+  text-align: center;
+  background: url(../public/img/oil_banner.png) bottom;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
