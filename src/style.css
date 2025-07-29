@@ -255,6 +255,7 @@
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
+  position: relative;
 }
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .head .image {
   width: 45px;
@@ -277,7 +278,13 @@
   font-weight: 400;
   color: #680a14;
 }
+.review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .head .G-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .head .G-icon img {
+  width: 18px;
   display: block;
 }
 .review-section .container .row .main-box .box:nth-child(2) .mySwiper .swiper-wrapper .swiper-slide .content .G-review {

@@ -153,6 +153,17 @@ footer .container .row .top-footer .main-box .box .content .logo img {
   display: block;
   width: 300px;
 }
+footer .container .row .top-footer .main-box .box .content .social {
+  padding-top: 30px;
+}
+footer .container .row .top-footer .main-box .box .content .social ul {
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+footer .container .row .top-footer .main-box .box .content .social ul li a img {
+  display: block;
+  width: 32px;
+}
 footer .container .row .top-footer .main-box .box .content h4 {
   font-size: 24px;
   color: #e08f26;

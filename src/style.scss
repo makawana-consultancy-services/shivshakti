@@ -365,6 +365,7 @@
                                         .head {
                                             align-items: center;
                                             column-gap: 10px;
+                                            position: relative;
 
                                             .image {
                                                 width: 45px;
@@ -394,7 +395,12 @@
                                             }
 
                                             .G-icon {
+                                                position: absolute;
+                                                right: 0px;
+                                                top: 0px;
+
                                                 img {
+                                                    width: 18px;
                                                     display: block;
                                                 }
                                             }

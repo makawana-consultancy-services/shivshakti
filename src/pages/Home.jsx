@@ -373,7 +373,7 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="" alt="" />
+                                                    <img src="../../img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
@@ -399,7 +399,7 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="" alt="" />
+                                                    <img src="../../img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
@@ -425,7 +425,7 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="" alt="" />
+                                                    <img src="../../img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
@@ -451,7 +451,7 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="" alt="" />
+                                                    <img src="../../img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
@@ -477,7 +477,7 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="" alt="" />
+                                                    <img src="../../img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
@@ -503,7 +503,7 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="" alt="" />
+                                                    <img src="../../img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">

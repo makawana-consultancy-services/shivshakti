@@ -20,6 +20,34 @@ const Footer = () => {
                                         </div>
                                         <div className="social">
                                             <h4>Follow us on:</h4>
+
+                                            <ul className='flex'>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="../../img/youtube.png" alt="" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="../../img/facebook.png" alt="" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="../../img/instagram.png" alt="" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="../../img/linkedin.png" alt="" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="../../img/twitter.png" alt="" />
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -79,6 +107,18 @@ const Footer = () => {
                                                     <span>mill address</span>
                                                     <a href="">
                                                         plot no :- 16, gidc palitana, bhavnagar, gujarat, india - 364270
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div className="icon">
+                                                    <img src="../../img/clock.png" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <span>office timing</span>
+                                                    <a href="">
+                                                        8:00 AM – 6:00 PM | Sunday: Half Day
                                                     </a>
                                                 </div>
                                             </li>
