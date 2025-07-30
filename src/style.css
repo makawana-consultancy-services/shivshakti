@@ -307,41 +307,122 @@
   color: rgba(51, 51, 51, 0.8);
 }
 
-.whatsapp-section {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 3;
+.form-section {
+  padding: 30px 0px;
 }
-.whatsapp-section .box {
-  display: inline-block;
-  width: 145px;
+.form-section .container .row .form {
+  max-width: 800px;
+  margin: 0px auto;
 }
-.whatsapp-section .box .content {
-  align-items: center;
+.form-section .container .row .form form {
   justify-content: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  background-color: #29a71a;
-  border-radius: 10px;
 }
-.whatsapp-section .box .content .details p {
-  color: white;
-  font-weight: 700;
-  padding: 4px 0px 0px 8px;
+.form-section .container .row .form form .input-box {
+  width: 50%;
+  padding: 10px;
+  position: relative;
 }
-.whatsapp-section .box .content .icon img {
+.form-section .container .row .form form .input-box input {
+  outline: none;
+  padding: 20px 40px 20px 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid rgba(165, 104, 24, 0.3215686275);
+  color: #A56818;
+  font-size: 16px;
+}
+.form-section .container .row .form form .input-box input:focus {
+  border: 2px solid #A56818;
+}
+.form-section .container .row .form form .input-box img {
   display: block;
-  width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  width: 22px;
+}
+.form-section .container .row .form form .message-area {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+}
+.form-section .container .row .form form .message-area textarea {
+  outline: none;
+  padding: 20px 40px 20px 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid rgba(165, 104, 24, 0.3215686275);
+  color: #A56818;
+  font-size: 16px;
+}
+.form-section .container .row .form form .message-area textarea:focus {
+  border: 2px solid #A56818;
+}
+.form-section .container .row .form form .message-area img {
+  display: block;
+  position: absolute;
+  top: 42px;
+  transform: translateY(-50%);
+  right: 25px;
+  width: 22px;
+}
+.form-section .container .row .form form .action {
+  padding: 10px;
 }
 
-.breadcrumb-section {
-  padding: 40px 0px;
+.outlets-section {
+  padding: 30px 0px;
 }
-.breadcrumb-section .container .row .box .content h2 {
+.outlets-section .container .row .title h2 {
+  text-transform: capitalize;
   text-align: center;
-  background: url(../public/img/oil_banner.png) bottom;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #A56818;
+}
+.outlets-section .container .row .main-box {
+  align-items: center;
+}
+.outlets-section .container .row .main-box .box {
+  width: 50%;
+  padding: 15px;
+}
+.outlets-section .container .row .main-box .box .content {
+  border: 2px solid rgba(104, 10, 20, 0.3098039216);
+  padding: 20px;
+  border-radius: 12px;
+}
+.outlets-section .container .row .main-box .box .content .head h4 {
+  text-transform: capitalize;
+  color: #680a14;
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.outlets-section .container .row .main-box .box .content ul li {
+  padding: 5px 0px;
+  align-items: center;
+}
+.outlets-section .container .row .main-box .box .content ul li .icon {
+  width: 6%;
+}
+.outlets-section .container .row .main-box .box .content ul li .icon img {
+  display: block;
+  width: 22px;
+}
+.outlets-section .container .row .main-box .box .content ul li .details {
+  width: 94%;
+}
+.outlets-section .container .row .main-box .box .content ul li .details p {
+  font-size: 18px;
+  color: #A56818;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.map-section {
+  padding: 30px 0px;
+}
+.map-section .container .row iframe {
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */

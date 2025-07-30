@@ -1,3 +1,5 @@
+// =========> home page css start <=========
+
 // banner-section start 
 .banner-section {
     padding-bottom: 30px;
@@ -439,58 +441,158 @@
 
 // review section end
 
-// whatsapp section start 
-.whatsapp-section {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 3;
+// =========> home page css end <=========
 
-    .box {
-        display: inline-block;
-        width: 145px;
 
-        .content {
-            align-items: center;
-            justify-content: center;
-            column-gap: 10px;
-            background-color: #29a71a;
-            border-radius: 10px;
+// =========> contact page css start <=========
 
-            .details {
-                p {
-                    color: white;
-                    font-weight: 700;
-                    padding: 4px 0px 0px 8px;
+// form section start
+.form-section {
+    padding: 30px 0px;
+
+    .container {
+        .row {
+
+            .form {
+                max-width: 800px;
+                margin: 0px auto;
+
+                form {
+                    justify-content: center;
+
+                    .input-box {
+                        width: 50%;
+                        padding: 10px;
+                        position: relative;
+
+                        input {
+                            outline: none;
+                            padding: 20px 40px 20px 20px;
+                            width: 100%;
+                            border-radius: 8px;
+                            border: 2px solid #a5681852;
+                            color: #A56818;
+                            font-size: 16px;
+
+                            &:focus {
+                                border: 2px solid #A56818;
+                            }
+                        }
+
+                        img {
+                            display: block;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 25px;
+                            width: 22px;
+                        }
+                    }
+
+                    .message-area {
+                        width: 100%;
+                        padding: 10px;
+                        position: relative;
+
+                        textarea {
+                            outline: none;
+                            padding: 20px 40px 20px 20px;
+                            width: 100%;
+                            border-radius: 8px;
+                            border: 2px solid #a5681852;
+                            color: #A56818;
+                            font-size: 16px;
+
+                            &:focus {
+                                border: 2px solid #A56818;
+                            }
+                        }
+
+                        img {
+                            display: block;
+                            position: absolute;
+                            top: 42px;
+                            transform: translateY(-50%);
+                            right: 25px;
+                            width: 22px;
+                        }
+                    }
+
+                    .action {
+                        padding: 10px;
+                    }
                 }
             }
 
-            .icon {
-                img {
-                    display: block;
-                    width: 50px;
-                }
-            }
         }
     }
 }
 
-// whatsapp section end
+// form section end
 
-// =========> contact page start <=========
-.breadcrumb-section {
-    padding: 40px 0px;
+// outlets section start 
+.outlets-section {
+    padding: 30px 0px;
 
     .container {
         .row {
-            .box {
-                .content {
-                    h2 {
-                        text-align: center;
-                        background: url(../public/img/oil_banner.png) bottom;
-                        background-repeat: repeat;
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
+            .title {
+                h2 {
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: #A56818;
+                }
+            }
+
+            .main-box {
+                align-items: center;
+
+                .box {
+                    width: 50%;
+                    padding: 15px;
+
+                    .content {
+                        border: 2px solid #680a144f;
+                        padding: 20px;
+                        border-radius: 12px;
+
+                        .head {
+                            h4 {
+                                text-transform: capitalize;
+                                color: #680a14;
+                                font-weight: 600;
+                                font-size: 25px;
+                                padding-bottom: 15px;
+                                text-align: center;
+                            }
+                        }
+
+                        ul {
+                            li {
+                                padding: 5px 0px;
+                                align-items: center;
+
+                                .icon {
+                                    width: 6%;
+
+                                    img {
+                                        display: block;
+                                        width: 22px;
+                                    }
+                                }
+
+                                .details {
+                                    width: 94%;
+
+                                    p {
+                                        font-size: 18px;
+                                        color: #A56818;
+                                        font-weight: 600;
+                                        text-transform: capitalize;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -498,4 +600,21 @@
     }
 }
 
-// =========> contact page end <=========
+// outlets section end
+
+// map section start 
+.map-section {
+    padding: 30px 0px;
+
+    .container {
+        .row {
+            iframe {
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+// map section end
+
+// =========> contact page css start <=========

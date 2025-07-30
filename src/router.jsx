@@ -1,4 +1,3 @@
-// router.js
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import Home from './pages/Home';
@@ -25,7 +24,7 @@ const router = createBrowserRouter(
     ],
     {
         future: {
-            v7_startTransition: true,      // ✅ This line removes the warning
+            v7_startTransition: true,
         },
     }
 );
