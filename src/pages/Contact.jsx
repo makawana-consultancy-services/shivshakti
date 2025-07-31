@@ -1,6 +1,29 @@
-import React from 'react'
+import axios from 'axios';
+import React, { useState } from 'react'
 
 const Contact = () => {
+
+    const [contactData, setcontactData] = useState([]);
+    
+
+    const handleChange = (e)=> {
+        const {name,value} = e.target;
+       setcontactData((prev)=> ({
+        ...prev,
+        [name]:value,
+       }))
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        
+        axios.post("http://localhost:8080/contact",contactData);
+        try {
+            console.log("data send successfully",contactData)
+        } catch (error) {
+            console.log(error);
+        }
+    }
     return (
         <>
             {/* form section start  */}
@@ -14,30 +37,30 @@ const Contact = () => {
                         </div>
 
                         <div className="form">
-                            <form action="" className='flex'>
+                            <form action="" className='flex' onSubmit={handleSubmit}>
                                 <div className="input-box">
-                                    <input type="text" placeholder='your name' id='' name='username' />
+                                    <input type="text" placeholder='your name' id='' name='username' onChange={(e)=>{handleChange(e);}}/>
                                     <img src="../../img/customer.png" alt="" />
                                 </div>
                                 <div className="input-box">
-                                    <input type="email" id='' name='' placeholder='your email' />
+                                    <input type="email" id='' name='email' placeholder='your email' onChange={handleChange}/>
                                     <img src="../../img/mail.png" alt="" />
                                 </div>
                                 <div className="input-box">
-                                    <input type="tel" id='' name='' placeholder='contact No.' />
+                                    <input type="tel" id='' name='phone_number' placeholder='contact No.' onChange={handleChange}/>
                                     <img src="../../img/phone.png" alt="" />
                                 </div>
                                 <div className="input-box">
-                                    <input type="text" id='' name='' placeholder='Subject' />
+                                    <input type="text" id='' name='subject' placeholder='Subject' onChange={handleChange}/>
                                     <img src="../../img/subject.png" alt="" />
                                 </div>
                                 <div className="message-area">
-                                    <textarea name="" id="" placeholder='your Message' rows={5}></textarea>
+                                    <textarea name="message" id="" placeholder='your Message' rows={5} onChange={handleChange}></textarea>
                                     <img src="../../img/chat.png" alt="" />
                                 </div>
                                 <div className="action">
                                     <div className="primary-btn">
-                                        <a href="">submit</a>
+                                        <button type="submit">submit</button>
                                     </div>
                                 </div>
                             </form>

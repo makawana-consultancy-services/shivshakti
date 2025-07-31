@@ -55,46 +55,12 @@
   padding-bottom: 10px;
 }
 .guarantee-section .container .row .main-box .box .content .details p {
-  color: #680a14;
-  font-weight: 500;
+  color: #6c4c03;
+  font-weight: 600;
 }
 .guarantee-section .container .row .main-box .box .content:hover .image:after {
   transform: scale(7);
   background-color: rgba(165, 104, 24, 0.1294117647);
-}
-
-.products-section {
-  padding: 30px 0px;
-}
-.products-section .container .row .main-box .box {
-  width: 33.33%;
-  padding: 15px;
-}
-.products-section .container .row .main-box .box .content {
-  height: 100%;
-  padding: 20px;
-  border-radius: 12px;
-}
-.products-section .container .row .main-box .box .content .image {
-  width: 200px;
-  margin: 0px auto;
-}
-.products-section .container .row .main-box .box .content .image img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  transition: all 0.5s;
-}
-.products-section .container .row .main-box .box .content .details {
-  text-align: center;
-  padding-top: 20px;
-}
-.products-section .container .row .main-box .box .content .details h3 {
-  color: #680a14;
-  padding: 15px 0px;
-}
-.products-section .container .row .main-box .box .content:hover .image img {
-  transform: scale(1.05);
 }
 
 .customers-banner-section {
@@ -105,7 +71,7 @@
 
 .customers-section {
   padding: 30px 0px;
-  margin-top: -7%;
+  margin-top: -8%;
 }
 .customers-section .container .row .main-box {
   justify-content: center;
@@ -122,18 +88,18 @@
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.0745098039);
 }
 .customers-section .container .row .main-box .box .content .image img {
-  width: 32px;
+  width: 28px;
 }
 .customers-section .container .row .main-box .box .content .details {
   padding-top: 15px;
 }
 .customers-section .container .row .main-box .box .content .details h3 {
   color: #A56818;
-  font-size: 30px;
+  font-size: 26px;
 }
 .customers-section .container .row .main-box .box .content .details p {
   color: #680a14;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -153,11 +119,12 @@
   align-items: center;
 }
 .slider-section .row .animation .scrolling-text-left .scrolling-wrapper .logo img {
-  width: 80px;
+  width: 54px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 .slider-section .row .animation .scrolling-text-left .scrolling-wrapper h2 {
+  font-size: 36px;
   font-family: sans-serif;
   font-weight: bold;
   margin: 0 25px;
@@ -186,11 +153,12 @@
   align-items: center;
 }
 .slider-section .row .animation .scrolling-text-right .scrolling-wrapper .logo img {
-  width: 80px;
+  width: 54px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 .slider-section .row .animation .scrolling-text-right .scrolling-wrapper h2 {
+  font-size: 36px;
   font-family: sans-serif;
   font-weight: bold;
   margin: 0 25px;
@@ -425,4 +393,139 @@
 }
 .map-section .container .row iframe {
   border-radius: 30px;
+}
+
+.products-section {
+  padding: 30px 0px;
+}
+.products-section .container .row .tab-btns {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 15px;
+  position: sticky;
+  top: 0px;
+}
+.products-section .container .row .tab-btns .btn-group {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  background-color: rgba(165, 104, 24, 0.1294117647);
+  padding: 15px;
+  border-radius: 8px;
+}
+.products-section .container .row .tab-btns .btn-group .tab-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+.products-section .container .row .tab-btns .btn-group .groundnut-btn, .products-section .container .row .tab-btns .btn-group .sunflower-btn {
+  background-color: #ffffff;
+  color: #6c4c03;
+  font-weight: bold;
+  font-size: 20px;
+}
+.products-section .container .row .tab-btns .btn-group .groundnut-btn.active, .products-section .container .row .tab-btns .btn-group .sunflower-btn.active {
+  background-color: #A56818;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(0, 128, 0, 0.3);
+}
+.products-section .container .row .main .oil-benefits {
+  padding: 15px 0px;
+}
+.products-section .container .row .main .oil-benefits .box {
+  padding: 15px;
+}
+.products-section .container .row .main .oil-benefits .box .content .head {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.products-section .container .row .main .oil-benefits .box .content .head h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #A56818;
+}
+.products-section .container .row .main .oil-benefits .box .content .details p {
+  color: #6c4c03;
+  font-weight: 600;
+  padding: 5px 0px;
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul {
+  justify-content: center;
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li {
+  width: 20%;
+  padding: 15px 15px;
+  align-items: center;
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .icon {
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .icon img {
+  display: block;
+  width: 50px;
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .i1 {
+  background-image: url("../public/img/broun_bg.png");
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .i2 {
+  background-image: url("../public/img/green_bg.png");
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .i3 {
+  background-image: url("../public/img/pink_bg.png");
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .i4 {
+  background-image: url("../public/img/orange_bg.png");
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .i5 {
+  background-image: url("../public/img/blue_bg.png");
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .disc {
+  padding-top: 20px;
+}
+.products-section .container .row .main .oil-benefits .box .content .details ul li .disc p {
+  text-align: center;
+}
+.products-section .container .row .main .box-group .box {
+  width: 25%;
+  padding: 15px;
+}
+.products-section .container .row .main .box-group .box .content {
+  height: 100%;
+  padding: 20px;
+  border-radius: 12px;
+}
+.products-section .container .row .main .box-group .box .content .image {
+  width: 100px;
+  margin: 0px auto;
+}
+.products-section .container .row .main .box-group .box .content .image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.products-section .container .row .main .box-group .box .content .details {
+  text-align: center;
+  padding-top: 20px;
+}
+.products-section .container .row .main .box-group .box .content .details h3 {
+  color: #680a14;
+  padding: 15px 0px;
+}
+.products-section .container .row .main .box-group .box .content .details p {
+  font-weight: 600;
+  color: #A56818;
+}
+.products-section .container .row .main .box-group .box .content:hover .image img {
+  transform: scale(1.05);
 }/*# sourceMappingURL=style.css.map */

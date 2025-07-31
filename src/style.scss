@@ -72,8 +72,8 @@
                             }
 
                             p {
-                                color: #680a14;
-                                font-weight: 500;
+                                color: #6c4c03;
+                                font-weight: 600;
                             }
                         }
 
@@ -94,61 +94,6 @@
 
 // guarantee section end
 
-// products section start
-.products-section {
-    padding: 30px 0px;
-
-    .container {
-        .row {
-            .main-box {
-                .box {
-                    width: 33.33%;
-                    padding: 15px;
-
-                    .content {
-                        height: 100%;
-                        padding: 20px;
-                        border-radius: 12px;
-
-                        .image {
-                            width: 200px;
-                            margin: 0px auto;
-
-
-                            img {
-                                display: block;
-                                width: 100%;
-                                height: 100%;
-                                transition: all 0.5s;
-                            }
-                        }
-
-                        .details {
-                            text-align: center;
-                            padding-top: 20px;
-
-                            h3 {
-                                color: #680a14;
-                                padding: 15px 0px;
-                            }
-                        }
-
-                        &:hover {
-                            .image {
-                                img {
-                                    transform: scale(1.05);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// products section end
-
 // customers-section start 
 .customers-banner-section {
     padding: 30px 0px;
@@ -161,7 +106,7 @@
 // customers-section start 
 .customers-section {
     padding: 30px 0px;
-    margin-top: -7%;
+    margin-top: -8%;
 
     .container {
         .row {
@@ -181,7 +126,7 @@
 
                         .image {
                             img {
-                                width: 32px;
+                                width: 28px;
                             }
                         }
 
@@ -190,12 +135,12 @@
 
                             h3 {
                                 color: #A56818;
-                                font-size: 30px;
+                                font-size: 26px;
                             }
 
                             p {
                                 color: #680a14;
-                                font-size: 30px;
+                                font-size: 26px;
                                 font-weight: 700;
                             }
                         }
@@ -228,12 +173,13 @@
 
                     .logo {
                         img {
-                            width: 80px;
+                            width: 54px;
                             object-fit: contain;
                         }
                     }
 
                     h2 {
+                        font-size: 36px;
                         font-family: sans-serif;
                         font-weight: bold;
                         margin: 0 25px;
@@ -270,12 +216,13 @@
 
                     .logo {
                         img {
-                            width: 80px;
+                            width: 54px;
                             object-fit: contain;
                         }
                     }
 
                     h2 {
+                        font-size: 36px;
                         font-family: sans-serif;
                         font-weight: bold;
                         margin: 0 25px;
@@ -617,4 +564,193 @@
 
 // map section end
 
-// =========> contact page css start <=========
+// =========> contact page css end <=========
+
+
+// =========> products page css start <=========
+
+// products section start
+.products-section {
+    padding: 30px 0px;
+
+    .container {
+        .row {
+            .tab-btns {
+                justify-content: center;
+                display: flex;
+                padding-bottom: 15px;
+                position: sticky;
+                top: 0px;
+
+                .btn-group {
+                    display: flex;
+                    column-gap: 15px;
+                    background-color: #a5681821;
+                    padding: 15px;
+                    border-radius: 8px;
+
+                    .tab-button {
+                        padding: 10px 16px;
+                        border: none;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 500;
+                        transition: background-color 0.3s, color 0.3s;
+                    }
+
+                    .groundnut-btn, .sunflower-btn {
+                        background-color: #ffffff;
+                        color: #6c4c03;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+
+                    .groundnut-btn.active, .sunflower-btn.active  {
+                        background-color: #A56818;
+                        color: #ffffff;
+                        font-weight: bold;
+                        box-shadow: 0 0 6px rgba(0, 128, 0, 0.3);
+                    }
+                }
+            }
+
+            .main {
+                .oil-benefits {
+                    padding: 15px 0px;
+
+                    .box {
+                        padding: 15px;
+
+                        .content {
+
+                            .head {
+                                text-align: center;
+                                padding-bottom: 20px;
+
+                                h4 {
+                                    font-size: 22px;
+                                    font-weight: bold;
+                                    color: #A56818;
+                                }
+                            }
+
+                            .details {
+                                p {
+                                    color: #6c4c03;
+                                    font-weight: 600;
+                                    padding: 5px 0px;
+                                }
+
+                                ul {
+                                    justify-content: center;
+
+                                    li {
+                                        width: 20%;
+                                        padding: 15px 15px;
+                                        align-items: center;
+
+                                        .icon {
+                                            width: 90px;
+                                            height: 90px;
+                                            background-size: cover;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 0px auto;
+
+                                            img {
+                                                display: block;
+                                                width: 50px;
+                                            }
+                                        }
+
+                                        .i1 {
+                                            background-image: url('../public/img/broun_bg.png');
+                                        }
+
+                                        .i2 {
+                                            background-image: url('../public/img/green_bg.png');
+                                        }
+
+                                        .i3 {
+                                            background-image: url('../public/img/pink_bg.png');
+                                        }
+
+                                        .i4 {
+                                            background-image: url('../public/img/orange_bg.png');
+                                        }
+
+                                        .i5 {
+                                            background-image: url('../public/img/blue_bg.png');
+                                        }
+
+                                        .disc {
+                                            padding-top: 20px;
+
+                                            p {
+                                                text-align: center;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .box-group {
+                    .box {
+                        width: 25%;
+                        padding: 15px;
+
+                        .content {
+                            height: 100%;
+                            padding: 20px;
+                            border-radius: 12px;
+
+                            .image {
+                                width: 100px;
+                                margin: 0px auto;
+
+
+                                img {
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                    transition: all 0.5s;
+                                }
+                            }
+
+                            .details {
+                                text-align: center;
+                                padding-top: 20px;
+
+                                h3 {
+                                    color: #680a14;
+                                    padding: 15px 0px;
+                                }
+
+                                p {
+                                    font-weight: 600;
+                                    color: #A56818;
+                                }
+                            }
+
+                            &:hover {
+                                .image {
+                                    img {
+                                        transform: scale(1.05);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// products section end
+
+// =========> products page css end <=========

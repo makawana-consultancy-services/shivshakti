@@ -5,7 +5,7 @@ const Whatsapp = () => {
         <>
             {/* whatsapp section start  */}
             <section className='whatsapp-section anek-gujarati'>
-                <a href="" className="box">
+                <a href="https://api.whatsapp.com/send?phone=8347674685" className="box" target='_blank'>
                     <div className="content flex">
                         <div className="details">
                             <p>ઓર્ડર માટે</p>

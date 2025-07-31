@@ -8,9 +8,6 @@ const Footer = () => {
             <footer>
                 <div className="container">
                     <div className="row">
-                        <div className="slogan anek-gujarati">
-                            <p>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</p>
-                        </div>
                         <div className="top-footer">
                             <div className="main-box flex">
                                 <div className="box">

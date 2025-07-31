@@ -34,12 +34,12 @@ a {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -64,7 +64,11 @@ h3 {
     display: flex;
     justify-content: center;
 
-    a {
+    a,
+    button {
+        cursor: pointer;
+        outline: none;
+        border: 0;
         background-color: #A56818;
         color: white;
         display: inline-block;
@@ -103,14 +107,23 @@ h3 {
 }
 
 .heading {
+    padding-bottom: 30px;
+
     h2 {
         text-align: center;
         color: #A56818;
-        padding-bottom: 30px;
+
 
         span {
             color: #680a14;
         }
+    }
+
+    p {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #6c4c03;
     }
 }
 
@@ -199,7 +212,7 @@ header {
 
                     li {
                         a {
-                            color: #680a14;
+                            color: #6c4c03;
                             text-transform: capitalize;
                             font-size: 18px;
                             font-weight: 700;
@@ -215,22 +228,11 @@ header {
 
 // footer start 
 footer {
-    padding: 30px 0px;
+    padding: 60px 0px 30px 0px;
     background-color: #a5681821;
 
     .container {
         .row {
-            .slogan {
-                border-radius: 12px;
-                padding-bottom: 30px;
-
-                p {
-                    font-size: 48px;
-                    color: #680a14;
-                    font-weight: bold;
-                    text-align: center;
-                }
-            }
 
             .top-footer {
                 .main-box {
@@ -279,7 +281,7 @@ footer {
                                     a {
                                         font-size: 18px;
                                         font-weight: bold;
-                                        color: #680a14;
+                                        color: #6c4c03;
                                     }
 
                                     .icon {
@@ -300,7 +302,7 @@ footer {
                                         a {
                                             font-size: 18px;
                                             font-weight: bold;
-                                            color: #680a14;
+                                            color: #6c4c03;
                                         }
                                     }
                                 }

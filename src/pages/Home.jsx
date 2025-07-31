@@ -4,6 +4,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Products from './Products';
 
 
 const Home = () => {
@@ -83,112 +84,7 @@ const Home = () => {
             {/* guarantee section end */}
 
             {/* products section start  */}
-            <section className='products-section anek-gujarati'>
-                <div className="container">
-                    <div className="row">
-                        <div className="heading">
-                            <h2>શિવશક્તિ <span> ઓઇલ્સ</span></h2>
-                        </div>
-                        <div className="main-box flex">
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="../../img/groundnut.png" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <h3>શિવશક્તિ ઘાણી નું શુદ્ધ સીંગતેલ </h3>
-                                    </div>
-                                    <div className="primary-btn">
-                                        <a href="#">
-                                            વધુ જાણો...
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="../../img/sunflower.png" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <h3>શિવશક્તિ ઘાણી નું શુદ્ધ સૂર્યમુખી તેલ </h3>
-                                    </div>
-                                    <div className="primary-btn">
-                                        <a href="#">
-                                            વધુ જાણો...
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="../../img/soya.png" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <h3>શિવશક્તિ ઘાણી નું શુદ્ધ સોયાબિન તેલ </h3>
-                                    </div>
-                                    <div className="primary-btn">
-                                        <a href="#">
-                                            વધુ જાણો...
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="../../img/mustard.png" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <h3>શિવશક્તિ ઘાણી નું શુદ્ધ રાય નું ( સરસવ ) તેલ </h3>
-                                        <div className="primary-btn">
-                                            <a href="#">
-                                                વધુ જાણો...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="../../img/rice.png" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <h3>શિવશક્તિ ઘાણી નું શુદ્ધ ચોખાનું તેલ </h3>
-                                        <div className="primary-btn">
-                                            <a href="#">
-                                                વધુ જાણો...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="image">
-                                        <img src="../../img/sunflower.png" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <h3>શિવશક્તિ ઘાણી નું શુદ્ધ મકાઈનું તેલ </h3>
-                                        <div className="primary-btn">
-                                            <a href="#">
-                                                વધુ જાણો...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Products />
             {/* products section end */}
 
             {/* customers banner section start  */}
@@ -291,7 +187,7 @@ const Home = () => {
                                 <div className="logo">
                                     <img src="../../img/original.png" alt="" />
                                 </div>
-                                <h2 className='t-fill'>100% Original</h2>
+                                <h2 className='t-fill'>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                                 <div className="logo">
                                     <img src="../../img/natural.png" alt="" />
                                 </div>
