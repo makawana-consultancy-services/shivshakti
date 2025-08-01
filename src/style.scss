@@ -165,7 +165,7 @@
 
             .scrolling-text-left {
                 display: flex;
-                // animation: scroll-left 20s linear infinite;
+                animation: scroll-left 20s linear infinite;
 
                 .scrolling-wrapper {
                     display: flex;
@@ -183,15 +183,9 @@
                         font-family: sans-serif;
                         font-weight: bold;
                         margin: 0 25px;
-                        color: #333333cc;
+                        color: #6c4c03;
                         text-transform: uppercase;
                         white-space: nowrap;
-                    }
-
-                    .t-fill {
-                        color: transparent;
-                        -webkit-text-stroke-width: 1px;
-                        -webkit-text-stroke-color: #333333cc;
                     }
                 }
 
@@ -208,7 +202,7 @@
 
             .scrolling-text-right {
                 display: flex;
-                // animation: scroll-right 20s linear infinite;
+                animation: scroll-right 20s linear infinite;
 
                 .scrolling-wrapper {
                     display: flex;
@@ -231,10 +225,14 @@
                         white-space: nowrap;
                     }
 
-                    .t-fill {
-                        color: transparent;
-                        -webkit-text-stroke-width: 1px;
-                        -webkit-text-stroke-color: #333333cc;
+                    .original {
+                        color: #B22222;
+                    }
+                    .natural {
+                        color: #6B8E23;
+                    }
+                    .pure {
+                        color: #22747e;
                     }
                 }
 

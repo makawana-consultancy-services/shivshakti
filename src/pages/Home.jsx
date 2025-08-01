@@ -152,32 +152,23 @@ const Home = () => {
                         <div className="scrolling-text-left">
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original.png" alt="" />
+                                    <img src="../../img/trust.png" alt="" />
                                 </div>
-                                <h2 className='t-fill'>100% Original</h2>
+                                <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                                 <div className="logo">
-                                    <img src="../../img/natural.png" alt="" />
+                                    <img src="../../img/trust.png" alt="" />
                                 </div>
-                                <h2>100% Natural</h2>
-                                <div className="logo">
-                                    <img src="../../img/pure.png" alt="" />
-                                </div>
-                                <h2 className='t-fill'>100% Pure</h2>
+                                <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                             </div>
-
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original.png" alt="" />
+                                    <img src="../../img/trust.png" alt="" />
                                 </div>
-                                <h2>100% Original</h2>
+                                <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                                 <div className="logo">
-                                    <img src="../../img/natural.png" alt="" />
+                                    <img src="../../img/trust.png" alt="" />
                                 </div>
-                                <h2 className='t-fill'>100% Natural</h2>
-                                <div className="logo">
-                                    <img src="../../img/pure.png" alt="" />
-                                </div>
-                                <h2>100% Pure</h2>
+                                <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                             </div>
                         </div>
                     </div>
@@ -187,30 +178,45 @@ const Home = () => {
                                 <div className="logo">
                                     <img src="../../img/original.png" alt="" />
                                 </div>
-                                <h2 className='t-fill'>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
+                                <h2 className='original'>100% Original</h2>
                                 <div className="logo">
                                     <img src="../../img/natural.png" alt="" />
                                 </div>
-                                <h2>100% Natural</h2>
+                                <h2 className='natural'>100% Natural</h2>
                                 <div className="logo">
                                     <img src="../../img/pure.png" alt="" />
                                 </div>
-                                <h2 className='t-fill'>100% Pure</h2>
+                                <h2 className='pure'>100% Pure</h2>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
                                     <img src="../../img/original.png" alt="" />
                                 </div>
-                                <h2>100% Original</h2>
+                                <h2 className='original'>100% Original</h2>
                                 <div className="logo">
                                     <img src="../../img/natural.png" alt="" />
                                 </div>
-                                <h2 className='t-fill'>100% Natural</h2>
+                                <h2 className='natural'>100% Natural</h2>
                                 <div className="logo">
                                     <img src="../../img/pure.png" alt="" />
                                 </div>
-                                <h2>100% Pure</h2>
+                                <h2 className='pure'>100% Pure</h2>
+                            </div>
+
+                            <div className="scrolling-wrapper">
+                                <div className="logo">
+                                    <img src="../../img/original.png" alt="" />
+                                </div>
+                                <h2 className='original'>100% Original</h2>
+                                <div className="logo">
+                                    <img src="../../img/natural.png" alt="" />
+                                </div>
+                                <h2 className='natural'>100% Natural</h2>
+                                <div className="logo">
+                                    <img src="../../img/pure.png" alt="" />
+                                </div>
+                                <h2 className='pure'>100% Pure</h2>
                             </div>
                         </div>
                     </div>
