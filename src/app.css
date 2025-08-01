@@ -33,6 +33,7 @@ a {
 }
 
 h2 {
+  text-transform: capitalize;
   font-size: 42px;
   font-weight: 700;
 }
@@ -42,19 +43,8 @@ h3 {
   font-weight: 700;
 }
 
-.title {
-  padding-bottom: 30px;
-}
-.title h2 {
-  text-align: center;
-  color: #A56818;
-}
-.title p {
-  font-size: 24px;
-  color: #680a14;
-  padding-top: 15px;
-  text-align: center;
-  font-weight: 600;
+.section-padding {
+  padding: 30px 0px;
 }
 
 .primary-btn {
@@ -117,6 +107,45 @@ h3 {
   font-size: 22px;
   font-weight: bold;
   color: #6c4c03;
+}
+
+.tab-btns {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 15px;
+  position: sticky;
+  top: 0px;
+}
+.tab-btns .btn-group {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  background-color: rgba(165, 104, 24, 0.1294117647);
+  padding: 15px;
+  border-radius: 8px;
+}
+.tab-btns .btn-group .tab-button {
+  padding: 10px 16px 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+.tab-btns .btn-group .groundnut-btn,
+.tab-btns .btn-group .sunflower-btn {
+  background-color: #ffffff;
+  color: #6c4c03;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tab-btns .btn-group .groundnut-btn.active,
+.tab-btns .btn-group .sunflower-btn.active {
+  background-color: #A56818;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(0, 128, 0, 0.3);
 }
 
 .navbar {

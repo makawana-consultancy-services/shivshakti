@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Products from './Products';
+import Process from './Process';
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
             {/* banner section end */}
 
             {/* guarantee section start  */}
-            <section className='guarantee-section anek-gujarati'>
+            <section className='guarantee-section section-padding anek-gujarati'>
                 <div className="container">
                     <div className="row">
                         <div className="main-box flex">
@@ -88,12 +89,13 @@ const Home = () => {
             {/* products section end */}
 
             {/* customers banner section start  */}
-            <section className='customers-banner-section anek-gujarati'>
+            <section className='customers-banner-section section-padding anek-gujarati'>
                 <div className="container">
                     <div className="row">
                         <div className="main">
                             <div className="heading">
                                 <h2>જયારે ગુણવત્તા બને <span>વિશ્વાસ</span></h2>
+                                <p>" અમે દેશભરના દરેક રસોડા સુધી વિશ્વાસ અને સ્વાદ લઈ જઈએ છીએ "</p>
                             </div>
                         </div>
                     </div>
@@ -102,7 +104,7 @@ const Home = () => {
             {/* customers banner section end */}
 
             {/* customers section start  */}
-            <section className='customers-section anek-gujarati'>
+            <section className='customers-section section-padding anek-gujarati'>
                 <div className="container">
                     <div className="row">
                         <div className="main-box flex">
@@ -146,7 +148,7 @@ const Home = () => {
             {/* customers section end */}
 
             {/* slider section start  */}
-            <section className="slider-section">
+            <section className="slider-section section-padding">
                 <div className="row">
                     <div className="animation">
                         <div className="scrolling-text-left">
@@ -224,8 +226,12 @@ const Home = () => {
             </section>
             {/* slider section end */}
 
+            {/* process section start  */}
+            <Process />
+            {/* process section end */}
+
             {/* review section start  */}
-            <section className='review-section anek-gujarati'>
+            <section className='review-section section-padding anek-gujarati'>
                 <div className="container">
                     <div className="row">
                         <div className="heading">

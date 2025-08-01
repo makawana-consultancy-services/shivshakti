@@ -20,8 +20,6 @@
 
 // guarantee section start 
 .guarantee-section {
-    padding: 30px 0px;
-
     .container {
         .row {
             .main-box {
@@ -96,17 +94,15 @@
 
 // customers-section start 
 .customers-banner-section {
-    padding: 30px 0px;
     background-color: #a5681821;
-    min-height: 215px;
+    min-height: 250px;
 }
 
 // customers-banner-section end
 
 // customers-section start 
 .customers-section {
-    padding: 30px 0px;
-    margin-top: -8%;
+    margin-top: -7%;
 
     .container {
         .row {
@@ -155,8 +151,6 @@
 
 // slider section start 
 .slider-section {
-    padding: 30px 0px;
-
     .row {
         .animation {
             width: 100%;
@@ -228,9 +222,11 @@
                     .original {
                         color: #B22222;
                     }
+
                     .natural {
                         color: #6B8E23;
                     }
+
                     .pure {
                         color: #22747e;
                     }
@@ -254,7 +250,6 @@
 
 // review section start 
 .review-section {
-    padding: 30px 0px;
     background-color: rgb(232 212 214 / 22%);
     min-height: 215px;
 
@@ -389,230 +384,12 @@
 // =========> home page css end <=========
 
 
-// =========> contact page css start <=========
-
-// form section start
-.form-section {
-    padding: 30px 0px;
-
-    .container {
-        .row {
-
-            .form {
-                max-width: 800px;
-                margin: 0px auto;
-
-                form {
-                    justify-content: center;
-
-                    .input-box {
-                        width: 50%;
-                        padding: 10px;
-                        position: relative;
-
-                        input {
-                            outline: none;
-                            padding: 20px 40px 20px 20px;
-                            width: 100%;
-                            border-radius: 8px;
-                            border: 2px solid #a5681852;
-                            color: #A56818;
-                            font-size: 16px;
-
-                            &:focus {
-                                border: 2px solid #A56818;
-                            }
-                        }
-
-                        img {
-                            display: block;
-                            position: absolute;
-                            top: 50%;
-                            transform: translateY(-50%);
-                            right: 25px;
-                            width: 22px;
-                        }
-                    }
-
-                    .message-area {
-                        width: 100%;
-                        padding: 10px;
-                        position: relative;
-
-                        textarea {
-                            outline: none;
-                            padding: 20px 40px 20px 20px;
-                            width: 100%;
-                            border-radius: 8px;
-                            border: 2px solid #a5681852;
-                            color: #A56818;
-                            font-size: 16px;
-
-                            &:focus {
-                                border: 2px solid #A56818;
-                            }
-                        }
-
-                        img {
-                            display: block;
-                            position: absolute;
-                            top: 42px;
-                            transform: translateY(-50%);
-                            right: 25px;
-                            width: 22px;
-                        }
-                    }
-
-                    .action {
-                        padding: 10px;
-                    }
-                }
-            }
-
-        }
-    }
-}
-
-// form section end
-
-// outlets section start 
-.outlets-section {
-    padding: 30px 0px;
-
-    .container {
-        .row {
-            .title {
-                h2 {
-                    text-transform: capitalize;
-                    text-align: center;
-                    color: #A56818;
-                }
-            }
-
-            .main-box {
-                align-items: center;
-
-                .box {
-                    width: 50%;
-                    padding: 15px;
-
-                    .content {
-                        border: 2px solid #680a144f;
-                        padding: 20px;
-                        border-radius: 12px;
-
-                        .head {
-                            h4 {
-                                text-transform: capitalize;
-                                color: #680a14;
-                                font-weight: 600;
-                                font-size: 25px;
-                                padding-bottom: 15px;
-                                text-align: center;
-                            }
-                        }
-
-                        ul {
-                            li {
-                                padding: 5px 0px;
-                                align-items: center;
-
-                                .icon {
-                                    width: 6%;
-
-                                    img {
-                                        display: block;
-                                        width: 22px;
-                                    }
-                                }
-
-                                .details {
-                                    width: 94%;
-
-                                    p {
-                                        font-size: 18px;
-                                        color: #A56818;
-                                        font-weight: 600;
-                                        text-transform: capitalize;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// outlets section end
-
-// map section start 
-.map-section {
-    padding: 30px 0px;
-
-    .container {
-        .row {
-            iframe {
-                border-radius: 30px;
-            }
-        }
-    }
-}
-
-// map section end
-
-// =========> contact page css end <=========
-
-
 // =========> products page css start <=========
 
 // products section start
 .products-section {
-    padding: 30px 0px;
-
     .container {
         .row {
-            .tab-btns {
-                justify-content: center;
-                display: flex;
-                padding-bottom: 15px;
-                position: sticky;
-                top: 0px;
-
-                .btn-group {
-                    display: flex;
-                    column-gap: 15px;
-                    background-color: #a5681821;
-                    padding: 15px;
-                    border-radius: 8px;
-
-                    .tab-button {
-                        padding: 10px 16px;
-                        border: none;
-                        border-radius: 6px;
-                        cursor: pointer;
-                        font-size: 14px;
-                        font-weight: 500;
-                        transition: background-color 0.3s, color 0.3s;
-                    }
-
-                    .groundnut-btn, .sunflower-btn {
-                        background-color: #ffffff;
-                        color: #6c4c03;
-                        font-weight: bold;
-                        font-size: 20px;
-                    }
-
-                    .groundnut-btn.active, .sunflower-btn.active  {
-                        background-color: #A56818;
-                        color: #ffffff;
-                        font-weight: bold;
-                        box-shadow: 0 0 6px rgba(0, 128, 0, 0.3);
-                    }
-                }
-            }
-
             .main {
                 .oil-benefits {
                     padding: 15px 0px;
@@ -752,3 +529,265 @@
 // products section end
 
 // =========> products page css end <=========
+
+
+// =========> process page css start <=========
+
+// process section start 
+
+.process-section {
+    .container {
+        .row {
+            .main {
+                .box-group {
+                    padding: 30px 0px;
+                    align-items: center;
+
+                    .box {
+                        padding: 0px 15px;
+
+                        .content {
+                            align-items: center;
+
+                            .process-step {
+                                width: 25%;
+
+                                h2 {
+                                    font-size: 80px;
+                                }
+                            }
+
+                            .image {
+                                width: 75%;
+
+                                img {
+                                    width: 100%;
+                                    display: block;
+                                    border-radius: 20px;
+                                }
+                            }
+
+                            .details {
+                                h3 {
+                                    font-size: 32px;
+                                    font-weight: bold;
+                                }
+
+                                p {
+                                    font-size: 22px;
+                                    font-weight: 500;
+                                    color: #6c4c03;
+                                }
+                            }
+
+                            .step1 {
+                                color: #c75d47;
+                            }
+
+                            .step2 {
+                                color: #567B37;
+                            }
+
+                            .step3 {
+                                color: #e366a8;
+                            }
+                            .step4 {
+                                color: #ed5810;
+                            }
+                            .step5 {
+                                color: #437F73;
+                            }
+
+                        }
+
+                        &:nth-child(1) {
+                            width: 40%;
+                        }
+
+                        &:nth-child(2) {
+                            width: 60%;
+                        }
+                    }
+
+                    &:nth-child(even) {
+                        flex-direction: row-reverse;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// process section end
+
+// =========> process page css end <=========
+
+
+// =========> contact page css start <=========
+
+// form section start
+.form-section {
+    .container {
+        .row {
+            .form {
+                max-width: 800px;
+                margin: 0px auto;
+
+                form {
+                    justify-content: center;
+
+                    .input-box {
+                        width: 50%;
+                        padding: 10px;
+                        position: relative;
+
+                        input {
+                            outline: none;
+                            padding: 20px 40px 20px 20px;
+                            width: 100%;
+                            border-radius: 8px;
+                            border: 2px solid #a5681852;
+                            color: #A56818;
+                            font-size: 16px;
+
+                            &:focus {
+                                border: 2px solid #A56818;
+                            }
+                        }
+
+                        img {
+                            display: block;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 25px;
+                            width: 22px;
+                        }
+                    }
+
+                    .message-area {
+                        width: 100%;
+                        padding: 10px;
+                        position: relative;
+
+                        textarea {
+                            outline: none;
+                            padding: 20px 40px 20px 20px;
+                            width: 100%;
+                            border-radius: 8px;
+                            border: 2px solid #a5681852;
+                            color: #A56818;
+                            font-size: 16px;
+
+                            &:focus {
+                                border: 2px solid #A56818;
+                            }
+                        }
+
+                        img {
+                            display: block;
+                            position: absolute;
+                            top: 42px;
+                            transform: translateY(-50%);
+                            right: 25px;
+                            width: 22px;
+                        }
+                    }
+
+                    .action {
+                        padding: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// form section end
+
+// outlets section start 
+.outlets-section {
+    background-color: rgba(165, 104, 24, 0.1294117647);
+    .container {
+        .row {
+            .title {
+                h2 {
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: #A56818;
+                }
+            }
+
+            .main-box {
+                align-items: center;
+
+                .box {
+                    width: 50%;
+                    padding: 15px;
+
+                    .content {
+                        border: 2px solid #680a144f;
+                        padding: 20px;
+                        border-radius: 12px;
+
+                        .head {
+                            h4 {
+                                text-transform: capitalize;
+                                color: #A56818;
+                                font-weight: 600;
+                                font-size: 25px;
+                                padding-bottom: 15px;
+                                text-align: center;
+                            }
+                        }
+
+                        ul {
+                            li {
+                                padding: 5px 0px;
+                                align-items: center;
+
+                                .icon {
+                                    width: 6%;
+
+                                    img {
+                                        display: block;
+                                        width: 22px;
+                                    }
+                                }
+
+                                .details {
+                                    width: 94%;
+
+                                    p {
+                                        font-size: 18px;
+                                        color: #6c4c03;
+                                        font-weight: 600;
+                                        text-transform: capitalize;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// outlets section end
+
+// map section start 
+.map-section {
+    .container {
+        .row {
+            iframe {
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+// map section end
+
+// =========> contact page css end <=========

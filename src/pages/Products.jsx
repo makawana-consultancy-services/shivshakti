@@ -9,21 +9,21 @@ const Products = () => {
     <>
       {/* products section start  */}
 
-      <section className='products-section anek-gujarati'>
+      <section className='products-section section-padding anek-gujarati'>
         <div className="container">
           <div className="row">
             <div className="heading">
               <h2>શિવશક્તિ <span> ઓઇલ્સ</span></h2>
-              <p>એકજ ગુણવત્તા, દરેક કદમાં શુદ્ધતા સાથે ઉપલબ્ધ</p>
+              <p>" એકજ ગુણવત્તા, દરેક કદમાં શુદ્ધતા સાથે ઉપલબ્ધ "</p>
             </div>
 
-            <div className="tab-btns flex anek-gujarati">
+            <div className="tab-btns flex">
               <div className="btn-group">
                 <button onClick={() => setActiveTab('groundnut')}
-                  className={`tab-button groundnut-btn ${activeTab === 'groundnut' ? 'active' : ''}`}>સીંગતેલ</button>
+                  className={`tab-button anek-gujarati groundnut-btn ${activeTab === 'groundnut' ? 'active' : ''}`}>સીંગતેલ</button>
 
                 <button onClick={() => setActiveTab('sunflower')}
-                  className={`tab-button sunflower-btn ${activeTab === 'sunflower' ? 'active' : ''}`}>સૂર્યમુખી તેલ</button>
+                  className={`tab-button anek-gujarati sunflower-btn ${activeTab === 'sunflower' ? 'active' : ''}`}>સૂર્યમુખી તેલ</button>
               </div>
             </div>
 
