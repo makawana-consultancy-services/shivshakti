@@ -118,7 +118,7 @@ const Header = () => {
                                         <NavLink to={'/process'}>process</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/nutrition'}>nutrition facts</NavLink>
+                                        <NavLink to={'/nutrients'}>nutrients</NavLink>
                                     </li>
                                     <li>
                                         <NavLink to={'/contact'}>contact us</NavLink>

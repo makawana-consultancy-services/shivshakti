@@ -4,8 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
 import Process from './pages/Process';
-import Nutrition from './pages/Nutrition';
 import Contact from './pages/Contact';
+import Nutrients from './pages/Nutrients';
 
 const router = createBrowserRouter(
     [
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
                 { path: 'about', element: <About /> },
                 { path: 'products', element: <Products /> },
                 { path: 'process', element: <Process /> },
-                { path: 'nutrition', element: <Nutrition /> },
+                { path: 'nutrients', element: <Nutrients /> },
                 { path: 'contact', element: <Contact /> },
             ],
         },

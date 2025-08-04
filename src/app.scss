@@ -271,9 +271,13 @@ footer {
                             text-transform: capitalize;
 
                             .logo {
-                                img {
-                                    display: block;
-                                    width: 300px;
+                                a {
+                                    display: inline-block;
+
+                                    img {
+                                        display: block;
+                                        width: 300px;
+                                    }
                                 }
                             }
 

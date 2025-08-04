@@ -411,6 +411,9 @@
 .process-section .container .row .main .box-group .box .content .step5 {
   color: #437F73;
 }
+.process-section .container .row .main .box-group .box .content .step6 {
+  color: #ea131d;
+}
 .process-section .container .row .main .box-group .box:nth-child(1) {
   width: 40%;
 }
@@ -419,6 +422,37 @@
 }
 .process-section .container .row .main .box-group:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.nutrients-section .container .row .main-box .box {
+  padding-bottom: 20px;
+}
+.nutrients-section .container .row .main-box .box .content .head {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.nutrients-section .container .row .main-box .box .content .head h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #A56818;
+}
+.nutrients-section .container .row .main-box .box .content .table-data table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid #c6c6c6;
+}
+.nutrients-section .container .row .main-box .box .content .table-data table thead tr th {
+  background-color: rgba(165, 104, 24, 0.1294117647);
+  color: #6c4c03;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0;
+}
+.nutrients-section .container .row .main-box .box .content .table-data table tbody tr td {
+  color: #6c4c03;
+  text-align: center;
+  padding: 5px 0;
+  text-transform: capitalize;
 }
 
 .form-section .container .row .form {

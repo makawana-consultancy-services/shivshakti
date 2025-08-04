@@ -591,11 +591,17 @@
                             .step3 {
                                 color: #e366a8;
                             }
+
                             .step4 {
                                 color: #ed5810;
                             }
+
                             .step5 {
                                 color: #437F73;
+                            }
+
+                            .step6 {
+                                color: #ea131d;
                             }
 
                         }
@@ -621,6 +627,72 @@
 // process section end
 
 // =========> process page css end <=========
+
+
+// =========> nutrients page css start <=========
+
+// nutrients section start 
+.nutrients-section {
+    .container {
+        .row {
+            .main-box {
+                .box {
+                    padding-bottom: 20px;
+
+                    .content {
+                        .head {
+                            text-align: center;
+                            padding-bottom: 20px;
+
+                            h4 {
+                                font-size: 22px;
+                                font-weight: bold;
+                                color: #A56818;
+                            }
+                        }
+
+                        .table-data {
+                            table {
+                                width: 100%;
+                                border-spacing: 0;
+                                border: 1px solid #c6c6c6;
+
+                                thead {
+                                    tr {
+                                        // border: 0;
+
+                                        th {
+                                            background-color: rgba(165, 104, 24, 0.1294117647);
+                                            color: #6c4c03;
+                                            text-transform: uppercase;
+                                            text-align: center;
+                                            padding: 5px 0;
+                                        }
+                                    }
+                                }
+
+                                tbody {
+                                    tr {
+                                        td {
+                                            color: #6c4c03;
+                                            text-align: center;
+                                            padding: 5px 0;
+                                            text-transform: capitalize;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// nutrients section end
+
+// =========> nutrients page css end <=========
 
 
 // =========> contact page css start <=========
@@ -709,6 +781,7 @@
 // outlets section start 
 .outlets-section {
     background-color: rgba(165, 104, 24, 0.1294117647);
+
     .container {
         .row {
             .title {

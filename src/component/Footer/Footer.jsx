@@ -13,7 +13,9 @@ const Footer = () => {
                                 <div className="box">
                                     <div className="content">
                                         <div className="logo">
-                                            <img src="../../img/shivshakti.png" alt="" />
+                                            <NavLink to={'/'}>
+                                                <img src="../../img/shivshakti.png" alt="" />
+                                            </NavLink>
                                         </div>
                                         <div className="social">
                                             <h4>Follow us on:</h4>
@@ -83,7 +85,7 @@ const Footer = () => {
                                                 <NavLink to={'/process'}>process</NavLink>
                                             </li>
                                             <li>
-                                                <NavLink to={'/nutrition'}>nutrition facts</NavLink>
+                                                <NavLink to={'/nutrients'}>nutrients</NavLink>
                                             </li>
                                             <li>
                                                 <NavLink to={'/contact'}>contact us</NavLink>

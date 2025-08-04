@@ -223,7 +223,10 @@ footer {
 footer .container .row .top-footer .main-box .box .content {
   text-transform: capitalize;
 }
-footer .container .row .top-footer .main-box .box .content .logo img {
+footer .container .row .top-footer .main-box .box .content .logo a {
+  display: inline-block;
+}
+footer .container .row .top-footer .main-box .box .content .logo a img {
   display: block;
   width: 300px;
 }
