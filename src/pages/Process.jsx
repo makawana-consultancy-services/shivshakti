@@ -32,7 +32,7 @@ const Process = () => {
                                     <>
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step1'>01</h2>
                                                     </div>
@@ -55,7 +55,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step2'>02</h2>
                                                     </div>
@@ -78,7 +78,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step3'>03</h2>
                                                     </div>
@@ -101,7 +101,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step4'>04</h2>
                                                     </div>
@@ -124,7 +124,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step5'>05</h2>
                                                     </div>
@@ -147,7 +147,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step6'>06</h2>
                                                     </div>
@@ -175,7 +175,7 @@ const Process = () => {
                                     <>
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step1'>01</h2>
                                                     </div>
@@ -198,7 +198,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step2'>02</h2>
                                                     </div>
@@ -221,7 +221,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step3'>03</h2>
                                                     </div>
@@ -244,7 +244,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step4'>04</h2>
                                                     </div>
@@ -267,7 +267,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step5'>05</h2>
                                                     </div>
@@ -290,7 +290,7 @@ const Process = () => {
 
                                         <div className="box-group flex">
                                             <div className="box">
-                                                <div className="content bg-effect flex">
+                                                <div className="content flex">
                                                     <div className="process-step">
                                                         <h2 className='step6'>06</h2>
                                                     </div>
