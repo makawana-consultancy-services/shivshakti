@@ -105,7 +105,7 @@ const Footer = () => {
                                                 <div className="details">
                                                     <span>mill address</span>
                                                     <a href="">
-                                                        plot no :- 16, gidc palitana, bhavnagar, gujarat, india - 364270
+                                                        plot no :- 16, GIDC palitana, bhavnagar, gujarat, india - 364270
                                                     </a>
                                                 </div>
                                             </li>

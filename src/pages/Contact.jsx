@@ -39,15 +39,15 @@ const Contact = () => {
                         <div className="form">
                             <form action="" className='flex' onSubmit={handleSubmit}>
                                 <div className="input-box">
-                                    <input type="text" placeholder='your name' id='' name='username' onChange={(e) => { handleChange(e); }} />
+                                    <input type="text" placeholder='Your Name' id='' name='username' onChange={(e) => { handleChange(e); }} />
                                     <img src="../../img/customer.png" alt="" />
                                 </div>
                                 <div className="input-box">
-                                    <input type="email" id='' name='email' placeholder='your email' onChange={handleChange} />
+                                    <input type="email" id='' name='email' placeholder='Your Email' onChange={handleChange} />
                                     <img src="../../img/mail.png" alt="" />
                                 </div>
                                 <div className="input-box">
-                                    <input type="tel" id='' name='phone_number' placeholder='contact No.' onChange={handleChange} />
+                                    <input type="tel" id='' name='phone_number' placeholder='Contact No.' onChange={handleChange} />
                                     <img src="../../img/phone.png" alt="" />
                                 </div>
                                 <div className="input-box">
@@ -55,7 +55,7 @@ const Contact = () => {
                                     <img src="../../img/subject.png" alt="" />
                                 </div>
                                 <div className="message-area">
-                                    <textarea name="message" id="" placeholder='your Message' rows={5} onChange={handleChange}></textarea>
+                                    <textarea name="message" id="" placeholder='Your Message' rows={5} onChange={handleChange}></textarea>
                                     <img src="../../img/chat.png" alt="" />
                                 </div>
                                 <div className="action">
