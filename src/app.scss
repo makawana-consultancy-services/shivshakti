@@ -237,6 +237,10 @@ header {
             }
 
             .menu {
+                .logo {
+                    display: none;
+                }
+
                 ul {
                     column-gap: 40px;
 
@@ -247,6 +251,47 @@ header {
                             font-size: 18px;
                             font-weight: 700;
                         }
+                    }
+                }
+
+                .social {
+                    display: none;
+                }
+            }
+
+            .menubar {
+                cursor: pointer;
+                display: none;
+
+                input {
+                    display: none;
+                }
+
+                svg {
+                    height: 2.5em;
+                    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+
+                    .line {
+                        fill: none;
+                        stroke: #A56818;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2.5;
+                        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                            stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+
+                        &.line-top-bottom {
+                            stroke-dasharray: 12 63;
+                        }
+                    }
+                }
+
+                input:checked+svg {
+                    transform: rotate(-45deg);
+
+                    .line-top-bottom {
+                        stroke-dasharray: 20 300;
+                        stroke-dashoffset: -32.42;
                     }
                 }
             }
@@ -411,6 +456,7 @@ footer {
         box-shadow: #A56818 0px 50px 0px 0px;
         border-radius: 0px 0px 70px;
         transform: rotate(0deg);
+        z-index: -1;
     }
 
     &::after {
@@ -590,6 +636,85 @@ footer {
 
 @media(max-width : 991px) {
 
+    // header start 
+    header {
+        .container {
+            .main-box {
+                .menu {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    padding: 42px 30px;
+                    background-color: #fff;
+                    width: 60%;
+                    height: 100%;
+                    box-shadow: 3px 3px 39px -4px rgba(0, 0, 0, .75);
+                    transition: .49s ease-in-out;
+                    overflow-y: scroll;
+                    transform: translateX(-115%);
+                    z-index: 2;
+
+                    .logo {
+                        display: block;
+                    }
+
+                    ul {
+                        display: block;
+                        padding-top: 30px;
+
+                        li {
+                            padding: 10px 0px;
+                            border-bottom: 2px solid rgba(165, 104, 24, 0.1294117647);
+
+                            a {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    .social {
+                        display: block;
+                        padding-top: 30px;
+
+                        h4 {
+                            font-size: 22px;
+                            color: #A56818;
+                            font-weight: bold;
+                            padding-bottom: 20px;
+                        }
+
+                        ul {
+                            display: flex;
+                            column-gap: 20px;
+                            padding: 0px;
+
+                            li {
+                                border-bottom: 0px;
+
+                                a {
+                                    img {
+                                        display: block;
+                                        width: 26px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .active {
+                    transform: translateX(0);
+                }
+
+                .menubar {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    // header end
+
     // footer start 
     footer {
         .container {
@@ -720,6 +845,31 @@ footer {
 
 @media(max-width : 767px) {
 
+    // header start 
+    header {
+        .container {
+            .main-box {
+                .menu {
+                    ul {
+                        li {
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .social {
+                        h4 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // header end
+
     // footer start 
     footer {
         .container {
@@ -828,6 +978,8 @@ footer {
 }
 
 @media(max-width : 575px) {
+
+    // header end
 
     // footer start 
     footer {
