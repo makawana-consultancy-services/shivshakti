@@ -55,7 +55,7 @@ const Products = () => {
                             <ul className='flex'>
                               <li>
                                 <div className="icon i1 flex">
-                                  <img src="/img/nuts.png" alt="" />
+                                  <img src="img/nuts.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>G-20 મગફળીનું શ્રેષ્ઠ ગુણવત્તાવાળી સિંગનો ઉપયોગ કરીને બનાવેલું તેલ</p>
@@ -63,7 +63,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i2 flex">
-                                  <img src="/img/flavours.png" alt="" />
+                                  <img src="img/flavours.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>કુદરતી સ્વાદ વધારે છે</p>
@@ -71,7 +71,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i3 flex">
-                                  <img src="/img/vitamin.png" alt="" />
+                                  <img src="img/vitamin.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>વિટામિન A અને E થી ભરપૂર</p>
@@ -79,7 +79,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i4 flex">
-                                  <img src="/img/fry.png" alt="" />
+                                  <img src="img/fry.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>ઊંચા તાપમાને સ્થિર હોવાથી તે ઊંડા તળવા અને સાંતળવા માટે આદર્શ બને છે.</p>
@@ -87,7 +87,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i5 flex">
-                                  <img src="/img/heart.png" alt="" />
+                                  <img src="img/heart.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>મોનોઅનસેચ્યુરેટેડ ફેટી એસિડ્સ (MUFA) ધરાવે છે જે સ્વસ્થ હૃદય જાળવવામાં મદદ કરે છે</p>
@@ -103,7 +103,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/1l_nuts.png" alt="" />
+                            <img src="img/1l_nuts.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -116,7 +116,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/5l_nuts.png" alt="" />
+                            <img src="img/5l_nuts.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -129,7 +129,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/15l_nuts.png" alt="" />
+                            <img src="img/15l_nuts.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -142,7 +142,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/15kg_nuts.png" alt="" />
+                            <img src="img/15kg_nuts.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -182,7 +182,7 @@ const Products = () => {
                             <ul className='flex'>
                               <li>
                                 <div className="icon i1 flex">
-                                  <img src="/img/digest.png" alt="" />
+                                  <img src="img/digest.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>હલકું અને સ્વસ્થ, પચવામાં સરળ</p>
@@ -190,7 +190,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i2 flex">
-                                  <img src="/img/system.png" alt="" />
+                                  <img src="img/system.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>રોગપ્રતિકારક શક્તિને મજબૂત બનાવે છે</p>
@@ -198,7 +198,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i3 flex">
-                                  <img src="/img/vitamin.png" alt="" />
+                                  <img src="img/vitamin.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>વિટામિન E થી ભરપૂર અને ત્વચાને સ્વસ્થ રાખો</p>
@@ -206,7 +206,7 @@ const Products = () => {
                               </li>
                               <li>
                                 <div className="icon i4 flex">
-                                  <img src="/img/heart.png" alt="" />
+                                  <img src="img/heart.png" alt="" />
                                 </div>
                                 <div className="disc">
                                   <p>હૃદય માટે સારું</p>
@@ -222,7 +222,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/1l_sunflowers.png" alt="" />
+                            <img src="img/1l_sunflowers.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -235,7 +235,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/5l_sunflower.png" alt="" />
+                            <img src="img/5l_sunflower.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -248,7 +248,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/15l_sunflower.png" alt="" />
+                            <img src="img/15l_sunflower.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>
@@ -261,7 +261,7 @@ const Products = () => {
                       <div className="box">
                         <div className="content">
                           <div className="image">
-                            <img src="/img/15kg_sunflower.png" alt="" />
+                            <img src="img/15kg_sunflower.png" alt="" />
                           </div>
                           <div className="details">
                             <p>શિવશક્તિ ઘાણી નું શુદ્ધ</p>

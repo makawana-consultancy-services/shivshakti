@@ -11,7 +11,7 @@ const Whatsapp = () => {
                             <p>ઓર્ડર માટે</p>
                         </div>
                         <div className="icon">
-                            <img src="/img/whatsapp.png" alt="" />
+                            <img src="img/whatsapp.png" alt="" />
                         </div>
                     </div>
                 </a>

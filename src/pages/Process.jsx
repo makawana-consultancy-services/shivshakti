@@ -38,7 +38,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step1.png" alt="" />
+                                                        <img src="img/groundnuts_step1.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step2.png" alt="" />
+                                                        <img src="img/groundnuts_step2.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -84,7 +84,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step3.png" alt="" />
+                                                        <img src="img/groundnuts_step3.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,7 +107,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step4.png" alt="" />
+                                                        <img src="img/groundnuts_step4.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -130,7 +130,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step5.png" alt="" />
+                                                        <img src="img/groundnuts_step5.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -153,7 +153,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step6.png" alt="" />
+                                                        <img src="img/groundnuts_step6.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -181,7 +181,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step1.png" alt="" />
+                                                        <img src="img/groundnuts_step1.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -204,7 +204,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step2.png" alt="" />
+                                                        <img src="img/groundnuts_step2.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -227,7 +227,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step3.png" alt="" />
+                                                        <img src="img/groundnuts_step3.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -250,7 +250,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step4.png" alt="" />
+                                                        <img src="img/groundnuts_step4.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -273,7 +273,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step5.png" alt="" />
+                                                        <img src="img/groundnuts_step5.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -296,7 +296,7 @@ const Process = () => {
                                                     </div>
 
                                                     <div className="image">
-                                                        <img src="/img/groundnuts_step6.png" alt="" />
+                                                        <img src="img/groundnuts_step6.png" alt="" />
                                                     </div>
                                                 </div>
                                             </div>

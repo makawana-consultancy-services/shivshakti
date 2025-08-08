@@ -40,23 +40,23 @@ const Contact = () => {
                             <form action="" className='flex' onSubmit={handleSubmit}>
                                 <div className="input-box">
                                     <input type="text" placeholder='Your Name' id='' name='username' onChange={(e) => { handleChange(e); }} />
-                                    <img src="/img/customer.png" alt="" />
+                                    <img src="img/customer.png" alt="" />
                                 </div>
                                 <div className="input-box">
                                     <input type="email" id='' name='email' placeholder='Your Email' onChange={handleChange} />
-                                    <img src="/img/mail.png" alt="" />
+                                    <img src="img/mail.png" alt="" />
                                 </div>
                                 <div className="input-box">
                                     <input type="tel" id='' name='phone_number' placeholder='Contact No.' onChange={handleChange} />
-                                    <img src="/img/phone.png" alt="" />
+                                    <img src="img/phone.png" alt="" />
                                 </div>
                                 <div className="input-box">
                                     <input type="text" id='' name='subject' placeholder='Subject' onChange={handleChange} />
-                                    <img src="/img/subject.png" alt="" />
+                                    <img src="img/subject.png" alt="" />
                                 </div>
                                 <div className="message-area">
                                     <textarea name="message" id="" placeholder='Your Message' rows={5} onChange={handleChange}></textarea>
-                                    <img src="/img/chat.png" alt="" />
+                                    <img src="img/chat.png" alt="" />
                                 </div>
                                 <div className="action">
                                     <div className="primary-btn">
@@ -86,7 +86,7 @@ const Contact = () => {
                                     <ul>
                                         <li className='flex'>
                                             <div className="icon">
-                                                <img src="/img/location.png" alt="" />
+                                                <img src="img/location.png" alt="" />
                                             </div>
                                             <div className="details">
                                                 <p>shop no. 10, bhagvan chamber, palitana, bhavanagar, gujarat, india - 364270</p>
@@ -94,7 +94,7 @@ const Contact = () => {
                                         </li>
                                         <li className='flex'>
                                             <div className="icon">
-                                                <img src="/img/phone.png" alt="" />
+                                                <img src="img/phone.png" alt="" />
                                             </div>
                                             <div className="details">
                                                 <p>8347674685 (mon-sat : 9AM - 6PM | Sunday: Half Day)</p>
@@ -112,7 +112,7 @@ const Contact = () => {
                                     <ul>
                                         <li className='flex'>
                                             <div className="icon">
-                                                <img src="/img/location.png" alt="" />
+                                                <img src="img/location.png" alt="" />
                                             </div>
                                             <div className="details">
                                                 <p>shop no. 10, bhagvan chamber, palitana, bhavanagar, gujarat, india - 364270</p>
@@ -120,7 +120,7 @@ const Contact = () => {
                                         </li>
                                         <li className='flex'>
                                             <div className="icon">
-                                                <img src="/img/phone.png" alt="" />
+                                                <img src="img/phone.png" alt="" />
                                             </div>
                                             <div className="details">
                                                 <p>8347674685 (mon-sat : 9AM - 6PM | Sunday: Half Day)</p>
