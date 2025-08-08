@@ -23,75 +23,75 @@ const Header = () => {
                         <div className="scrolling-text-left">
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original_nav.png" alt="" />
+                                    <img src="/img/original_nav.png" alt="" />
                                 </div>
                                 <h4>100% Original</h4>
                                 <div className="logo">
-                                    <img src="../../img/natural_nav.png" alt="" />
+                                    <img src="/img/natural_nav.png" alt="" />
                                 </div>
                                 <h4>100% Natural</h4>
                                 <div className="logo">
-                                    <img src="../../img/pure_nav.png" alt="" />
+                                    <img src="/img/pure_nav.png" alt="" />
                                 </div>
                                 <h4>100% Pure</h4>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original_nav.png" alt="" />
+                                    <img src="/img/original_nav.png" alt="" />
                                 </div>
                                 <h4>100% Original</h4>
                                 <div className="logo">
-                                    <img src="../../img/natural_nav.png" alt="" />
+                                    <img src="/img/natural_nav.png" alt="" />
                                 </div>
                                 <h4>100% Natural</h4>
                                 <div className="logo">
-                                    <img src="../../img/pure_nav.png" alt="" />
+                                    <img src="/img/pure_nav.png" alt="" />
                                 </div>
                                 <h4>100% Pure</h4>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original_nav.png" alt="" />
+                                    <img src="/img/original_nav.png" alt="" />
                                 </div>
                                 <h4>100% Original</h4>
                                 <div className="logo">
-                                    <img src="../../img/natural_nav.png" alt="" />
+                                    <img src="/img/natural_nav.png" alt="" />
                                 </div>
                                 <h4>100% Natural</h4>
                                 <div className="logo">
-                                    <img src="../../img/pure_nav.png" alt="" />
+                                    <img src="/img/pure_nav.png" alt="" />
                                 </div>
                                 <h4>100% Pure</h4>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original_nav.png" alt="" />
+                                    <img src="/img/original_nav.png" alt="" />
                                 </div>
                                 <h4>100% Original</h4>
                                 <div className="logo">
-                                    <img src="../../img/natural_nav.png" alt="" />
+                                    <img src="/img/natural_nav.png" alt="" />
                                 </div>
                                 <h4>100% Natural</h4>
                                 <div className="logo">
-                                    <img src="../../img/pure_nav.png" alt="" />
+                                    <img src="/img/pure_nav.png" alt="" />
                                 </div>
                                 <h4>100% Pure</h4>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original_nav.png" alt="" />
+                                    <img src="/img/original_nav.png" alt="" />
                                 </div>
                                 <h4>100% Original</h4>
                                 <div className="logo">
-                                    <img src="../../img/natural_nav.png" alt="" />
+                                    <img src="/img/natural_nav.png" alt="" />
                                 </div>
                                 <h4>100% Natural</h4>
                                 <div className="logo">
-                                    <img src="../../img/pure_nav.png" alt="" />
+                                    <img src="/img/pure_nav.png" alt="" />
                                 </div>
                                 <h4>100% Pure</h4>
                             </div>
@@ -149,27 +149,27 @@ const Header = () => {
                                     <ul className='flex'>
                                         <li>
                                             <a href="">
-                                                <img src="../../img/youtube.png" alt="" />
+                                                <img src="/img/youtube.png" alt="" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="">
-                                                <img src="../../img/facebook.png" alt="" />
+                                                <img src="/img/facebook.png" alt="" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="">
-                                                <img src="../../img/instagram.png" alt="" />
+                                                <img src="/img/instagram.png" alt="" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="">
-                                                <img src="../../img/linkedin.png" alt="" />
+                                                <img src="/img/linkedin.png" alt="" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="">
-                                                <img src="../../img/twitter.png" alt="" />
+                                                <img src="/img/twitter.png" alt="" />
                                             </a>
                                         </li>
                                     </ul>

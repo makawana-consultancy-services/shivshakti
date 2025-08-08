@@ -14,7 +14,7 @@ const Footer = () => {
                                     <div className="content">
                                         <div className="logo">
                                             <NavLink to={'/'}>
-                                                <img src="../../img/shivshakti.png" alt="" />
+                                                <img src="/img/shivshakti.png" alt="" />
                                             </NavLink>
                                         </div>
                                         <div className="social">
@@ -23,27 +23,27 @@ const Footer = () => {
                                             <ul className='flex'>
                                                 <li>
                                                     <a href="">
-                                                        <img src="../../img/youtube.png" alt="" />
+                                                        <img src="/img/youtube.png" alt="" />
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="">
-                                                        <img src="../../img/facebook.png" alt="" />
+                                                        <img src="/img/facebook.png" alt="" />
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="">
-                                                        <img src="../../img/instagram.png" alt="" />
+                                                        <img src="/img/instagram.png" alt="" />
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="">
-                                                        <img src="../../img/linkedin.png" alt="" />
+                                                        <img src="/img/linkedin.png" alt="" />
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="">
-                                                        <img src="../../img/twitter.png" alt="" />
+                                                        <img src="/img/twitter.png" alt="" />
                                                     </a>
                                                 </li>
                                             </ul>
@@ -100,7 +100,7 @@ const Footer = () => {
                                         <ul>
                                             <li>
                                                 <div className="icon">
-                                                    <img src="../../img/location.png" alt="" />
+                                                    <img src="/img/location.png" alt="" />
                                                 </div>
                                                 <div className="details">
                                                     <span>mill address</span>
@@ -112,7 +112,7 @@ const Footer = () => {
 
                                             <li>
                                                 <div className="icon">
-                                                    <img src="../../img/clock.png" alt="" />
+                                                    <img src="/img/clock.png" alt="" />
                                                 </div>
                                                 <div className="details">
                                                     <span>office timing</span>
@@ -124,7 +124,7 @@ const Footer = () => {
 
                                             <li>
                                                 <div className="icon">
-                                                    <img src="../../img/phone.png" alt="" />
+                                                    <img src="/img/phone.png" alt="" />
                                                 </div>
                                                 <div className="details">
                                                     <span>Contact</span>
@@ -134,7 +134,7 @@ const Footer = () => {
 
                                             <li>
                                                 <div className="icon">
-                                                    <img src="../../img/mail.png" alt="" />
+                                                    <img src="/img/mail.png" alt="" />
                                                 </div>
                                                 <div className="details">
                                                     <span>email</span>

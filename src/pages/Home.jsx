@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="row">
                     <div className="box">
                         <video autoPlay muted loop>
-                            <source src='../../video/mill_process_video.mp4' type="video/mp4" />
+                            <source src='/video/mill_process_video.mp4' type="video/mp4" />
                         </video>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/natural_green.png" alt="" />
+                                        <img src="/img/natural_green.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>100% શુદ્ધ ઘાણીનું તેલ</h3>
@@ -44,7 +44,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/best.png" alt="" />
+                                        <img src="/img/best.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>શ્રેષ્ઠ મટીરીયલ</h3>
@@ -56,7 +56,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/nutrition.png" alt="" />
+                                        <img src="/img/nutrition.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>પૌષ્ટિક ગુણધર્મો</h3>
@@ -69,7 +69,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/taste.png" alt="" />
+                                        <img src="/img/taste.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>સ્વાદ અને સુગંધ</h3>
@@ -111,7 +111,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/location.png" alt="" />
+                                        <img src="/img/location.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>રાજ્યો</h3>
@@ -122,7 +122,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/cities.png" alt="" />
+                                        <img src="/img/cities.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>શહેરો</h3>
@@ -133,7 +133,7 @@ const Home = () => {
                             <div className="box">
                                 <div className="content">
                                     <div className="image">
-                                        <img src="../../img/customer.png" alt="" />
+                                        <img src="/img/customer.png" alt="" />
                                     </div>
                                     <div className="details">
                                         <h3>ગ્રાહકો</h3>
@@ -154,21 +154,21 @@ const Home = () => {
                         <div className="scrolling-text-left">
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/trust.png" alt="" />
+                                    <img src="/img/trust.png" alt="" />
                                 </div>
                                 <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                                 <div className="logo">
-                                    <img src="../../img/trust.png" alt="" />
+                                    <img src="/img/trust.png" alt="" />
                                 </div>
                                 <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                             </div>
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/trust.png" alt="" />
+                                    <img src="/img/trust.png" alt="" />
                                 </div>
                                 <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                                 <div className="logo">
-                                    <img src="../../img/trust.png" alt="" />
+                                    <img src="/img/trust.png" alt="" />
                                 </div>
                                 <h2>"વિશ્વાસ અને ગુણવત્તાનો સંગમ એટલે શિવશક્તિ ઓઇલ"</h2>
                             </div>
@@ -178,45 +178,45 @@ const Home = () => {
                         <div className="scrolling-text-right">
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original.png" alt="" />
+                                    <img src="/img/original.png" alt="" />
                                 </div>
                                 <h2 className='original'>100% Original</h2>
                                 <div className="logo">
-                                    <img src="../../img/natural.png" alt="" />
+                                    <img src="/img/natural.png" alt="" />
                                 </div>
                                 <h2 className='natural'>100% Natural</h2>
                                 <div className="logo">
-                                    <img src="../../img/pure.png" alt="" />
+                                    <img src="/img/pure.png" alt="" />
                                 </div>
                                 <h2 className='pure'>100% Pure</h2>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original.png" alt="" />
+                                    <img src="/img/original.png" alt="" />
                                 </div>
                                 <h2 className='original'>100% Original</h2>
                                 <div className="logo">
-                                    <img src="../../img/natural.png" alt="" />
+                                    <img src="/img/natural.png" alt="" />
                                 </div>
                                 <h2 className='natural'>100% Natural</h2>
                                 <div className="logo">
-                                    <img src="../../img/pure.png" alt="" />
+                                    <img src="/img/pure.png" alt="" />
                                 </div>
                                 <h2 className='pure'>100% Pure</h2>
                             </div>
 
                             <div className="scrolling-wrapper">
                                 <div className="logo">
-                                    <img src="../../img/original.png" alt="" />
+                                    <img src="/img/original.png" alt="" />
                                 </div>
                                 <h2 className='original'>100% Original</h2>
                                 <div className="logo">
-                                    <img src="../../img/natural.png" alt="" />
+                                    <img src="/img/natural.png" alt="" />
                                 </div>
                                 <h2 className='natural'>100% Natural</h2>
                                 <div className="logo">
-                                    <img src="../../img/pure.png" alt="" />
+                                    <img src="/img/pure.png" alt="" />
                                 </div>
                                 <h2 className='pure'>100% Pure</h2>
                             </div>
@@ -247,11 +247,11 @@ const Home = () => {
                                         <h4></h4>
                                     </div>
                                     <div className="G-review flex">
-                                        <img src="../../img/star_fill.png" alt="" />
-                                        <img src="../../img/star_fill.png" alt="" />
-                                        <img src="../../img/star_fill.png" alt="" />
-                                        <img src="../../img/star_fill.png" alt="" />
-                                        <img src="../../img/star.png" alt="" />
+                                        <img src="/img/star_fill.png" alt="" />
+                                        <img src="/img/star_fill.png" alt="" />
+                                        <img src="/img/star_fill.png" alt="" />
+                                        <img src="/img/star_fill.png" alt="" />
+                                        <img src="/img/star.png" alt="" />
                                     </div>
                                     <div className="feedback">
                                         <p>Based on 1 reviews
@@ -281,15 +281,15 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="../../img/google.png" alt="" />
+                                                    <img src="/img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star.png" alt="" />
                                             </div>
                                             <div className="feedback">
                                                 <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
@@ -307,15 +307,15 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="../../img/google.png" alt="" />
+                                                    <img src="/img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star.png" alt="" />
                                             </div>
                                             <div className="feedback">
                                                 <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
@@ -333,15 +333,15 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="../../img/google.png" alt="" />
+                                                    <img src="/img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star.png" alt="" />
                                             </div>
                                             <div className="feedback">
                                                 <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
@@ -359,15 +359,15 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="../../img/google.png" alt="" />
+                                                    <img src="/img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star.png" alt="" />
                                             </div>
                                             <div className="feedback">
                                                 <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
@@ -385,15 +385,15 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="../../img/google.png" alt="" />
+                                                    <img src="/img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star.png" alt="" />
                                             </div>
                                             <div className="feedback">
                                                 <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
@@ -411,15 +411,15 @@ const Home = () => {
                                                     <h5>just now</h5>
                                                 </div>
                                                 <div className="G-icon">
-                                                    <img src="../../img/google.png" alt="" />
+                                                    <img src="/img/google.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className="G-review flex">
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star_fill.png" alt="" />
-                                                <img src="../../img/star.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star_fill.png" alt="" />
+                                                <img src="/img/star.png" alt="" />
                                             </div>
                                             <div className="feedback">
                                                 <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quas blanditiis consectetur eveniet adipisci voluptate hic aliquid non porro ab!</p>
