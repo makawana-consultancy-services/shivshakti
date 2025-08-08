@@ -109,7 +109,7 @@ const Header = () => {
                     <div className="row">
                         <div className="main-box flex">
                             <div className="logo">
-                                <NavLink to={'/'}>
+                                <NavLink to={'/'} onClick={handleCloseMenu}>
                                     <img src="img/shivshakti.png" alt="" />
                                 </NavLink>
                             </div>
