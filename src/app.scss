@@ -263,8 +263,9 @@ footer {
 
     .container {
         .row {
-
             .top-footer {
+                padding: 0px 15px;
+
                 .main-box {
                     .box {
                         .content {
@@ -377,6 +378,7 @@ footer {
         .row {
             .main-box {
                 justify-content: space-between;
+                padding: 0px 15px;
 
                 .box {
                     .content {
@@ -464,3 +466,417 @@ footer {
 }
 
 // whatsapp section end
+
+
+// media query start 
+
+@media(min-width : 1400px) {}
+
+@media(max-width : 1399px) {}
+
+@media(max-width : 1199px) {
+
+    // footer start 
+    footer {
+        .container {
+            .row {
+                .top-footer {
+                    .main-box {
+                        .box {
+                            .content {
+                                .social {
+                                    ul {
+                                        li {
+                                            a {
+                                                img {
+                                                    width: 28px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                h4 {
+                                    font-size: 22px;
+                                }
+
+                                ul {
+                                    li {
+
+                                        a {
+                                            font-size: 18px;
+                                        }
+
+                                        .icon {
+                                            img {
+                                                width: 28px;
+                                            }
+                                        }
+
+                                        .details {
+                                            span {
+                                                font-size: 18px;
+                                            }
+
+                                            a {
+                                                font-size: 16px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // footer end
+
+    // sub footer start 
+    .sub-footer {
+        .container {
+            .row {
+                .main-box {
+                    padding: 20px 15px;
+
+                    .box {
+                        .content {
+                            padding: 0px;
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &::before {
+            z-index: -1;
+        }
+    }
+
+    // sub footer start 
+
+    // whatsapp section start 
+    .whatsapp-section {
+        .box {
+            display: inline-block;
+            width: 125px;
+
+            .content {
+                padding: 8px 0px;
+
+                .details {
+                    p {
+                        padding: 4px 0px 0px 0px;
+                    }
+                }
+
+                .icon {
+                    img {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    // whatsapp section end
+}
+
+@media(max-width : 991px) {
+
+    // footer start 
+    footer {
+        .container {
+            .row {
+                .top-footer {
+                    .main-box {
+                        justify-content: space-between;
+
+                        .box {
+                            .content {
+                                .social {
+                                    padding: 0px;
+
+                                    ul {
+                                        li {
+                                            a {
+                                                img {
+                                                    width: 26px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                ul {
+                                    li {
+                                        .icon {
+                                            img {
+                                                width: 26px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-child(1) {
+                                width: 100%;
+
+                                .content {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                width: 24%;
+                                padding-top: 40px;
+                                order: 3;
+                            }
+
+                            &:nth-child(3) {
+                                width: 24%;
+                                padding-top: 40px;
+                                order: 2;
+                            }
+
+                            &:nth-child(4) {
+                                width: 49%;
+                                padding-top: 40px;
+                                order: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // footer end
+
+    // sub footer start 
+    .sub-footer {
+        .container {
+            .row {
+                .main-box {
+                    justify-content: center;
+                    column-gap: 10px;
+                    padding: 10px 15px;
+
+                    .box {
+                        .content {
+                            padding: 3px 0px;
+
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // sub footer start 
+
+    // whatsapp section start 
+    .whatsapp-section {
+        bottom: 20px;
+
+        .box {
+            display: inline-block;
+            width: 115px;
+
+            .content {
+                column-gap: 5px;
+                padding: 5px 0px;
+
+                .details {
+                    p {
+                        font-size: 16px;
+                        padding: 5px 0px 0px 0px;
+                    }
+                }
+
+                .icon {
+                    img {
+                        width: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    // whatsapp section end
+}
+
+@media(max-width : 767px) {
+
+    // footer start 
+    footer {
+        .container {
+            .row {
+                .top-footer {
+                    .main-box {
+                        .box {
+                            .content {
+                                .social {
+                                    ul {
+                                        li {
+                                            a {
+                                                img {
+                                                    width: 26px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                h4 {
+                                    font-size: 20px;
+                                }
+
+                                ul {
+                                    li {
+
+                                        a {
+                                            font-size: 16px;
+                                        }
+
+                                        .icon {
+                                            img {
+                                                width: 24px;
+                                            }
+                                        }
+
+                                        .details {
+                                            span {
+                                                font-size: 16px;
+                                            }
+
+                                            a {
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-child(1) {
+                                width: 100%;
+                                order: 0;
+                            }
+
+                            &:nth-child(2) {
+                                width: 100%;
+                                order: 0;
+                                padding-top: 15px;
+                            }
+
+                            &:nth-child(3) {
+                                width: 100%;
+                                order: 0;
+                                padding-top: 15px;
+                            }
+
+                            &:nth-child(4) {
+                                width: 100%;
+                                order: 0;
+                                padding-top: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // footer end
+
+    // whatsapp section start 
+    .whatsapp-section {
+        .box {
+            width: 100px;
+
+            .content {
+
+                .details {
+                    p {
+                        font-size: 14px;
+                        font-weight: 400 !important;
+                    }
+                }
+
+                .icon {
+                    img {
+                        width: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    // whatsapp section end
+}
+
+@media(max-width : 575px) {
+
+    // footer start 
+    footer {
+        .container {
+            .row {
+                .top-footer {
+                    .main-box {
+                        .box {
+                            &:nth-child(1) {
+                                width: 100%;
+
+                                .content {
+                                    display: block;
+
+                                    .social {
+                                        padding-top: 30px;
+                                    }
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                width: 100%;
+                            }
+
+                            &:nth-child(3) {
+                                width: 100%;
+                            }
+
+                            &:nth-child(4) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // footer end
+
+    // whatsapp section start 
+    .whatsapp-section {
+        bottom: 15px;
+        right: 15px;
+
+    }
+
+    // whatsapp section end
+}
+
+
+// media query end
