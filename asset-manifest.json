@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shivshakti/static/css/main.9c1c411a.css",
-    "main.js": "/shivshakti/static/js/main.9fa25ecc.js",
+    "main.css": "/shivshakti/static/css/main.fe3f626a.css",
+    "main.js": "/shivshakti/static/js/main.391d8a35.js",
     "static/media/green_bg.png": "/shivshakti/static/media/green_bg.8ec5d2e94bea3f2b6019.png",
     "static/media/blue_bg.png": "/shivshakti/static/media/blue_bg.6238aa84262c240066f4.png",
     "static/media/broun_bg.png": "/shivshakti/static/media/broun_bg.63df7c0fecbc5520ca5a.png",
     "static/media/pink_bg.png": "/shivshakti/static/media/pink_bg.00eb417bd9af15d9c4f6.png",
     "static/media/orange_bg.png": "/shivshakti/static/media/orange_bg.ecd6c7dae367b32b0f69.png",
     "index.html": "/shivshakti/index.html",
-    "main.9c1c411a.css.map": "/shivshakti/static/css/main.9c1c411a.css.map",
-    "main.9fa25ecc.js.map": "/shivshakti/static/js/main.9fa25ecc.js.map"
+    "main.fe3f626a.css.map": "/shivshakti/static/css/main.fe3f626a.css.map",
+    "main.391d8a35.js.map": "/shivshakti/static/js/main.391d8a35.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c1c411a.css",
-    "static/js/main.9fa25ecc.js"
+    "static/css/main.fe3f626a.css",
+    "static/js/main.391d8a35.js"
   ]
 }
